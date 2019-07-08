@@ -79,6 +79,8 @@ layout: home
 <p><strong>岩波 翔也</strong></p>
 <p>九州大学大学院システム生命科学府（数理生物学研究室）</p>
 <p>５年一貫制博士課程４年（D2）</p>
+<a href="https://shoyaiwanami.com">ウェブサイト</a>
+<a href="/contact">コンタクト</a>
 </div>
 
 <div class="page-column50">
