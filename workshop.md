@@ -2,6 +2,7 @@
 layout: page
 title: Workshop
 permalink: /workshop/
+description: 開催される理論免疫学ワークショップおよび過去の理論免疫学ワークショップの一覧です。
 ---
 
 # ワークショップ一覧

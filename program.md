@@ -2,6 +2,7 @@
 layout: page
 title: Program
 permalink: /program/
+description: 開催される理論免疫学ワークショップおよび過去の理論免疫学ワークショップのプログラムへのリンクです。
 ---
 
 # プログラム一覧
