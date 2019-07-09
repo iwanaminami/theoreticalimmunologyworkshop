@@ -53,6 +53,19 @@ h3{
 p{
   margin-top: 10px;
 }
+a{
+  color: #FFA500;
+}
+a:hover, a:active{
+  text-decoration: none;
+  color: #FF4500;
+}
+a:hover{
+  opacity: .8;
+}
+a:visited{
+  color: #8B0000;
+}
 
 /*navigation*/
 #nav-drawer{
@@ -350,6 +363,12 @@ p{
 .page-image-middle{
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 760px) {
+  .page-image-middle{
+    width: 100%;
+  }
 }
 
 .site-footer{

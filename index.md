@@ -57,7 +57,7 @@ layout: home
 <div class="page-strip">
 <div class="wrapper">
 <h2>過去の開催</h2>
-<p style="text-align: center;">過去の開催情報はこちら</p>
+<a href="/workshop"><p style="text-align: center;">過去の開催情報はこちら</p></a>
 <div class="page-image-middle">
 <img src="/assets/images/place.png" alt="過去の開催地">
 </div>
@@ -79,7 +79,7 @@ layout: home
 <p><strong>岩波 翔也</strong></p>
 <p>九州大学大学院システム生命科学府（数理生物学研究室）</p>
 <p>５年一貫制博士課程４年（D2）</p>
-<a href="https://shoyaiwanami.com">ウェブサイト</a>
+<a href="https://shoyaiwanami.com">ウェブサイト</a><br>
 <a href="/contact">コンタクト</a>
 </div>
 
