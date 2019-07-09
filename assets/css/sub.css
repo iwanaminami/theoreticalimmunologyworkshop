@@ -1,9 +1,20 @@
+html{
+  width: 100vw;
+  font-size: 16px;
+}
+
 h1{
   text-align: center;
   font-size: 40px;
   font-weight: 800;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+@media (max-width: 760px) {
+  h1{
+    font-size: 30px;
+  }
 }
 
 h2{
@@ -17,6 +28,12 @@ h2{
     font-weight: 700;
 }
 
+@media (max-width: 760px) {
+  h2{
+    font-size: 24px;
+  }
+}
+
 h3{
   display: inline-block;
     background: linear-gradient(transparent 70%, #fff1cf 70%);
@@ -27,8 +44,109 @@ h3{
     font-weight: 700;
 }
 
+@media (max-width: 760px) {
+  h3{
+    font-size: 20px;
+  }
+}
+
 p{
   margin-top: 10px;
+}
+
+/*navigation*/
+#nav-drawer{
+  display: none;
+}
+#nav-open{
+  display: none;
+}
+@media (max-width: 760px) {
+  .trigger{
+    display: none;
+  }
+  #nav-drawer {
+    position: relative;
+    display: block;
+    height: 50%;
+  }
+
+  /*チェックボックス等は非表示に*/
+  .nav-unshown {
+    display: none;
+  }
+
+  /*アイコンのスペース*/
+  #nav-open {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+  }
+
+  /*ハンバーガーアイコンをCSSだけで表現*/
+  #nav-open span, #nav-open span:before, #nav-open span:after {
+    position: absolute;
+    height: 3px;/*線の太さ*/
+    border-radius: 3px;
+    background: #fff;
+    display: block;
+    content: '';
+    cursor: pointer;
+  }
+  #nav-open span{
+    width: 25px;/*長さ*/
+  }
+  #nav-open span:before {
+    bottom: -8px;
+    width: 22px;/*長さ*/
+  }
+  #nav-open span:after {
+    bottom: -16px;
+    width: 19px;/*長さ*/
+  }
+
+  /*閉じる用の薄黒カバー*/
+  #nav-close {
+    display: none;/*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;/*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+
+  /*中身*/
+  #nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;/*最前面に*/
+    width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 330px;/*最大幅（調整してください）*/
+    height: 100%;
+    background: #fff;/*背景色*/
+    transition: .3s ease-in-out;/*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);/*左に隠しておく*/
+  }
+
+  /*チェックが入ったらもろもろ表示*/
+  #nav-input:checked ~ #nav-close {
+    display: block;/*カバーを表示*/
+    opacity: .5;
+  }
+
+  #nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);/*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0,0,0,.15);
+  }
 }
 
 .site-header{
@@ -37,23 +155,60 @@ p{
   height: 80px;
 }
 
+@media (max-width: 760px) {
+  .site-header{
+    height: 50px;
+    min-height: 50px;
+  }
+}
+
 .site-header .wrapper{
   height: 100%;
 }
-
-.site-title,　.site-title:visited{
-  color: #ffffff!important;
+.site-title{
   line-height: 80px;
   font-weight: 700;
+}
+.site-title,　.site-title:visited{
+  color: #ffffff!important;
+}
+
+
+@media (max-width: 760px) {
+  .site-title{
+    font-size: 1.3em;
+    line-height: 50px;
+  }
 }
 
 .site-nav{
   line-height: 80px;
+  background: none;
+  border: none;
 }
+
+@media (max-width: 760px) {
+  .site-nav{
+    line-height: 50px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+  }
+}
+
+
 
 .site-nav .page-link{
   color: #ffffff;
   font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .site-nav .page-link{
+    color: #000;
+  }
 }
 
 .wrapper{
@@ -70,6 +225,13 @@ p{
   padding-bottom: 150px;
 }
 
+@media (max-width: 760px) {
+  .page-strip{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
 .page-strip-header{
   width: 100%;
   padding-top: 100px;
@@ -78,6 +240,12 @@ p{
   background-image: url("/assets/images/back-beppu.jpeg");
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 760px) {
+  .page-strip-header{
+    margin-bottom: 20px;
+  }
 }
 .page-header-image{
   width: 80%;
@@ -93,6 +261,13 @@ p{
   color: #ffffff;
 }
 
+@media (max-width: 760px) {
+  .page-header-text{
+    font-size: 10vw;
+    margin: 0;
+  }
+}
+
 .page-column40{
   float: left;
   width: 40%;
@@ -104,6 +279,13 @@ p{
 .page-column60{
   float: left;
   width: 60%;
+}
+
+@media (max-width: 760px) {
+  .page-column40, .page-column50, .page-column60{
+    float: none;
+    width: 100%;
+  }
 }
 
 .cf:before,

@@ -20,6 +20,7 @@ affiliation: 九州大学数理生物学研究室
 address: 〒819-0395 福岡市西区元岡744 九州大学伊都キャンパス ウエスト１号館C-911
 description: >- # this means to ignore newlines until "baseurl:"
   2020年に開催予定の第4回理論免疫学ワークショップの情報を随時更新しています。理論免疫学ワークショップのウェブサイトです。プログラムの確認、参加登録など。
+keywords: 理論免疫学, 理論, 免疫学, 数学, theoretical immunology, theory, immunology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://workshop.theoreticalimmunology.jp" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
