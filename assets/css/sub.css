@@ -79,9 +79,16 @@ p{
   /*アイコンのスペース*/
   #nav-open {
     display: inline-block;
-    width: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 25px;
     height: 22px;
+    padding: 8px;
+    border-radius: 10px;
     vertical-align: middle;
+    background: #000;
+    opacity: .5;
   }
 
   /*ハンバーガーアイコンをCSSだけで表現*/
@@ -120,6 +127,36 @@ p{
     transition: .3s ease-in-out;
   }
 
+  #nav-close-button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #nav-close-button span::before,
+  #nav-close-button span::after {
+    display: block;
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 3px;
+    margin: -8% 0 0 -42%;
+    background: #000;
+  }
+  #nav-close-button span::before {
+    transform: rotate(-45deg);
+  }
+  #nav-close-button span::after {
+    transform: rotate(45deg);
+  }
+
+
   /*中身*/
   #nav-content {
     overflow: auto;
@@ -128,12 +165,20 @@ p{
     left: 0;
     z-index: 9999;/*最前面に*/
     width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
-    max-width: 330px;/*最大幅（調整してください）*/
+    max-width: 600px;/*最大幅（調整してください）*/
     height: 100%;
+    padding: 10px;
     background: #fff;/*背景色*/
     transition: .3s ease-in-out;/*滑らかに表示*/
     -webkit-transform: translateX(-105%);
     transform: translateX(-105%);/*左に隠しておく*/
+  }
+
+  .nav-mobile-content{
+    position: absolute;
+    text-align: right;
+    bottom: 25%;
+    right: 10%;
   }
 
   /*チェックが入ったらもろもろ表示*/
@@ -172,12 +217,18 @@ p{
 .site-title,　.site-title:visited{
   color: #ffffff!important;
 }
-
+.site-header .wrapper p{
+  margin: 0;
+}
 
 @media (max-width: 760px) {
   .site-title{
     font-size: 1.3em;
     line-height: 50px;
+    float: none;
+  }
+  .site-header .wrapper p{
+    text-align: center;
   }
 }
 
@@ -191,8 +242,6 @@ p{
   .site-nav{
     line-height: 50px;
     height: 100%;
-    display: inline-block;
-    vertical-align: middle;
     top: 0;
     left: 0;
   }
@@ -208,6 +257,8 @@ p{
 @media (max-width: 760px) {
   .site-nav .page-link{
     color: #000;
+    display: block;
+    margin-right: 20px!important;
   }
 }
 
@@ -263,7 +314,7 @@ p{
 
 @media (max-width: 760px) {
   .page-header-text{
-    font-size: 10vw;
+    font-size: 6vw;
     margin: 0;
   }
 }
