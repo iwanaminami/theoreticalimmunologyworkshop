@@ -249,6 +249,7 @@ a:visited{
   line-height: 80px;
   background: none;
   border: none;
+  height: 80px;
 }
 
 @media (max-width: 760px) {
@@ -265,6 +266,52 @@ a:visited{
 .site-nav .page-link{
   color: #ffffff;
   font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.site-nav .page-link:not(.last-child){
+  margin: 0;
+}
+
+.site-nav .post-link{
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1em;
+  line-height: normal;
+  width: 200px;
+}
+
+.site-nav li{
+  list-style: none;
+}
+
+.site-nav ul{
+  margin: 0;
+}
+
+.site-nav li:not(.post-list){
+  float: left;
+  width: 100px;
+  height: 80px;
+}
+
+.site-nav li ul{
+  position: absolute;
+}
+
+.site-nav li ul li {
+  overflow: hidden;
+  height: 0;
+  width: 100%;
+}
+
+.site-nav li:hover > ul > li {
+  overflow: visible;
+  height: 40px;
 }
 
 @media (max-width: 760px) {

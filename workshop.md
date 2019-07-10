@@ -38,6 +38,6 @@ description: 開催される理論免疫学ワークショップおよび過去�
 ### 第１回理論免疫学ワークショップ
 2017年1月19日 - 1月20日
 
-[第１回のページ](https://theoimmu2017hiroshima.jimdo.com/)
+[第１回のページ](/1st-workshop)
 
-[![](/assets/images/ws-1.png "第１回理論免疫学ワークショップ")](https://theoimmu2017hiroshima.jimdo.com/)
+[![](/assets/images/ws-1.png "第１回理論免疫学ワークショップ")](/1st-workshop)

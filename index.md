@@ -25,10 +25,10 @@ layout: home
 <div class="wrapper">
 <div class="page-column40">
 <h2>次回の開催</h2>
+<h3>第４回理論免疫学ワークショップ</h3>
 <p>
-第４回理論免疫学ワークショップ<br>
-日時：<br>
-開催地：<br>
+日時：2020年1月10日, 1月11日（予定）<br>
+開催地：大分（未定）<br>
 </p>
 </div>
 

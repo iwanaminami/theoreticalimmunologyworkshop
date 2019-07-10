@@ -15,4 +15,4 @@ description: 開催される理論免疫学ワークショップおよび過去�
 
 [第２回理論免疫学ワークショップ](/2nd-program)
 
-[第１回理論免疫学ワークショップ](https://theoimmu2017hiroshima.jimdo.com/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/)
+[第１回理論免疫学ワークショップ](/1st-program)
