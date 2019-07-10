@@ -2,8 +2,11 @@
 layout: post
 title:  "第１回理論免疫学ワークショップ"
 date:   2016-07-09 01:28:37 +0900
-categories: workshop
+categories: workshop previous
 permalink: /1st-workshop/
+eventdate: "2017年1月19日-1月20日"
+eventplace: "JMSアステールプラザ 大会議室A"
+image: ws-1
 ---
 
 ![](/assets/images/ws-1.png "第１回理論免疫学ワークショップ")

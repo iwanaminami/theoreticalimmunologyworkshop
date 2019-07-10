@@ -2,8 +2,11 @@
 layout: post
 title:  "第４回理論免疫学ワークショップ"
 date:   2019-07-07 01:28:37 +0900
-categories: workshop
+categories: workshop next
 permalink: /4th-workshop/
+eventdate: "2020年1月10日-1月11日（予定）"
+eventplace: "大分（予定）"
+image: ws-4
 ---
 
 ![](/assets/images/ws-4.png "第４回理論免疫学ワークショップ")
