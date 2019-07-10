@@ -23,7 +23,7 @@ layout: home
 
 <div class="page-strip">
 <div class="wrapper">
-<div class="page-column40">
+<div class="page-column50">
 <h2>次回の開催</h2>
 <h3>第４回理論免疫学ワークショップ</h3>
 <p>
@@ -32,7 +32,7 @@ layout: home
 </p>
 </div>
 
-<div class="page-column60">
+<div class="page-column50">
 <h3>新着情報</h3>
 <ul>
 {% for news in site.data.news %}
