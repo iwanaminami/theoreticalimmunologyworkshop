@@ -3,6 +3,8 @@ layout: page
 title: Workshop
 permalink: /workshop/
 description: 開催される理論免疫学ワークショップおよび過去の理論免疫学ワークショップの一覧です。
+date: 2019-07-09 01:28:37 +0900
+last_modified_at: 2019-07-12 01:28:37 +0900
 ---
 
 # ワークショップ一覧
