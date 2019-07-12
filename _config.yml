@@ -26,6 +26,8 @@ url: "https://workshop.theoreticalimmunology.jp" # the base hostname & protocol 
 twitter_username: jekyllrb
 github_username:  jekyll
 permalink: pretty
+google_analytics: UA-85165915-12
+google_maps: AIzaSyCmNAoJl7rD3i-J8BotDmoHjNO1O-ipa1w
 
 # Build settings
 markdown: kramdown
