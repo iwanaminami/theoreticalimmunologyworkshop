@@ -6,7 +6,9 @@
     <main class="page-content" aria-label="Content">
       {% include header.html %}
       <div class="wrapper">
-        <p class="pt-0 pb-3">カテゴリ：<span class="text-white bg-dark p-2">{{ page.categories }}</span></p>
+        {% if page.categories %}
+        <p class="pt-0 pb-3">カテゴリ：<span class="text-white bg-dark p-2">{{ page.categories[0] }}</span></p>
+        {% endif %}
         <section>
           {{ content }}
         </section>
