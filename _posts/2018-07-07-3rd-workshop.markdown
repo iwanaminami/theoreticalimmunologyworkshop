@@ -7,6 +7,9 @@ permalink: /3rd-workshop/
 eventdate: "2019年1月24日 - 1月25日"
 eventplace: "秋田市にぎわい交流館 研修室１"
 image: ws-3
+location:
+  latitude: 51.5285582
+  longitude: -0.2416807
 ---
 
 ![](/assets/images/ws-3.png "第３回理論免疫学ワークショップ")
@@ -18,7 +21,7 @@ image: ws-3
 <h3>日時</h3>
 <p>2019年1月24日13:00〜2019年1月25日17:00</p>
 <h3>場所</h3>
-<p>秋田市にぎわい交流館 研修室１（〒010-0001 秋田県秋田市中通１丁目４−１）</p>
+<p>秋田市にぎわい交流館 研修室１<br>（〒010-0001 秋田県秋田市中通１丁目４−１）</p>
 <h3>使用言語</h3>
 <p>日本語</p>
 </div>
@@ -51,19 +54,19 @@ image: ws-3
 
 TEL：018-853-1133　FAX：018-884-4788
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.9879515911407!2d140.11986841627444!3d39.71745347945238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8fc2eb41794fbf%3A0x3961a2dbd8d4ed28!2z56eL55Sw5biC44Gr44GO44KP44GE5Lqk5rWB6aSo!5e0!3m2!1sja!2sjp!4v1562914211289!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ### 懇親会会場
 秋田きりたんぽ屋 秋田大町分店
 
 〒010-0921　秋田県秋田市大町4丁目2-20
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.0864038374207!2d140.11442551627462!3d39.715240879452814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8fc2e943ccdda3%3A0x513e638fb6730019!2z56eL55Sw44GN44KK44Gf44KT44G95bGLIOWkp-eUuuWIhuW6lw!5e0!3m2!1sja!2sjp!4v1562917258802!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
 ## 共催
 
-住友電工グループ社会貢献基金学術研究助成
-
-代表：
-
-岩見真吾（九州大学）
-
-研究課題名：
-
-老化関連疾患のメカニズムを解明する造血幹細胞エイジングの数理生物学研究
+**住友電工グループ社会貢献基金学術研究助成**  
+代表：  
+岩見真吾（九州大学）  
+研究課題名：  
+老化関連疾患のメカニズムを解明する造血幹細胞エイジングの数理生物学研究  

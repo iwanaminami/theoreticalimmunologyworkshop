@@ -17,6 +17,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 <div style="height: 50px"></div>
 -->
 
+
 <div class="page-strip-header">
 <div class="wrapper">
 <h1 class="page-header-image"><a href="/"><img src="/assets/images/logo3-1.png" alt="理論免疫学ワークショップ"></a></h1>
