@@ -1,36 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85165915-12"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-85165915-12');
-    </script>
-
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="/assets/css/sub.css">
-    <link rel="stylesheet" href="/assets/css/home.css">
-    <link rel="apple-touch-icon" type="image/png" href="/assets/images/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/assets/images/favicons/icon-192x192.png">
-  </head>
+  {% include head.html %}
   <body>
     {% include nav.html %}
     <main class="page-content" aria-label="Content">
       {% include header.html %}
       <div class="wrapper">
+        <p class="pt-0 pb-3">カテゴリ：<span class="text-white bg-dark p-2">{{ page.categories }}</span></p>
         <section>
-          <p>カテゴリ：{{ page.categories }}</p>
           {{ content }}
         </section>
       </div>

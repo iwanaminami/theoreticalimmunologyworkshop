@@ -2,8 +2,11 @@
 layout: post
 title:  "第２回理論免疫学ワークショップ"
 date:   2017-07-09 01:28:37 +0900
-categories: workshop
+categories: workshop previous
 permalink: /2nd-workshop/
+eventdate: "2017年1月19日 - 1月20日"
+eventplace: "富山県民共生センターサンフォルテ研修室307"
+image: ws-2
 ---
 
 ![](/assets/images/ws-2.png "第２回理論免疫学ワークショップ")

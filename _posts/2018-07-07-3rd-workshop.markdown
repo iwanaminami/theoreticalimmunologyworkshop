@@ -2,8 +2,11 @@
 layout: post
 title:  "第３回理論免疫学ワークショップ"
 date:   2018-07-07 01:28:37 +0900
-categories: workshop
+categories: workshop previous
 permalink: /3rd-workshop/
+eventdate: "2019年1月24日 - 1月25日"
+eventplace: "秋田市にぎわい交流館 研修室１"
+image: ws-3
 ---
 
 ![](/assets/images/ws-3.png "第３回理論免疫学ワークショップ")

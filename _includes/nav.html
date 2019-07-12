@@ -1,29 +1,46 @@
-<header class="site-header" role="banner">
+<header class="site-header bg-dark" role="banner">
   <div class="wrapper">
-    <p><a  class="site-title" rel="author" href="/">{{ site.title }}</a></p>
 
-    <nav class="site-nav">
-      <div class="trigger">
-        <ul>
-          <li><a class="page-link" href="/">Home</a></li>
-          <li><a class="page-link" href="/workshop/">Workshop</a>
-            <ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <a class="navbar-brand" href="/">{{ site.title }}</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/workshop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Workshop
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% for post in site.categories.workshop %}
-              <li class="post-list"><a class="post-link" href="{{ post.permalink }}">{{ post.title }}</a></li>
+              <a class="dropdown-item" href="{{ post.permalink }}">{{ post.title }}</a>
               {% endfor %}
-            </ul>
+            </div>
           </li>
-          <li><a class="page-link" href="/program/">Program</a>
-            <ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/workshop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Program
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               {% for post in site.categories.program %}
-              <li class="post-list"><a class="post-link" href="{{ post.permalink }}">{{ post.title }}</a></li>
+              <a class="dropdown-item" href="{{ post.permalink }}">{{ post.title }}</a>
               {% endfor %}
-            </ul>
+            </div>
           </li>
-          <li><a class="page-link" href="/contact/">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
         </ul>
       </div>
+    </nav>
 
+    <p><a  class="site-title" rel="author" href="/">{{ site.title }}</a></p>
+    <nav class="site-nav">
       <div id="nav-drawer">
         <input id="nav-input" type="checkbox" class="nav-unshown">
         <label id="nav-open" for="nav-input"><span></span></label>
@@ -31,10 +48,10 @@
         <div id="nav-content">
           <label id="nav-close-button" for="nav-input"><span></span></label>
           <div class="nav-mobile-content">
-            <a class="page-link" href="/">Home</a>
-            <a class="page-link" href="/workshop/">Workshop</a>
-            <a class="page-link" href="/program/">Program</a>
-            <a class="page-link" href="/contact/">Contact</a>
+            <a class="page-link-o" href="/">Home</a>
+            <a class="page-link-o" href="/workshop/">Workshop</a>
+            <a class="page-link-o" href="/program/">Program</a>
+            <a class="page-link-o" href="/contact/">Contact</a>
           </div>
         </div>
       </div>

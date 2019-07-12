@@ -23,16 +23,17 @@ layout: home
 
 <div class="page-strip">
 <div class="wrapper">
-<div class="page-column40">
 <h2>次回の開催</h2>
-<h3>第４回理論免疫学ワークショップ</h3>
-<p>
-日時：2020年1月10日, 1月11日（予定）<br>
-開催地：大分（未定）<br>
-</p>
+<div class="page-column50">
+{% for post in site.categories.next %}
+<h3>{{ post.title }}</h3>
+<p>日時: {{ post.eventdate }}</p>
+<p>開催地: {{ post.eventplace }}</p>
+<p><a href="{{ post.permalink }}">開催概要のページ</a></p>
+{% endfor %}
 </div>
 
-<div class="page-column60">
+<div class="page-column50">
 <h3>新着情報</h3>
 <ul>
 {% for news in site.data.news %}
