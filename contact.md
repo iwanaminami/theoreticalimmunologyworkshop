@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Contact
+description: 理論免疫学ワークショップに関するお問い合わせ等はこちら。関連リンクなど。
 permalink: /contact/
 date: 2019-07-09 01:28:37 +0900
-last_modified_at: 2019-07-12 01:28:37 +0900
+last_modified_at: 2019-07-18 01:28:37 +0900
 ---
 
 # コンタクト
