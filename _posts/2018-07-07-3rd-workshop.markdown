@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "第３回理論免疫学ワークショップ"
+description: 第３回理論免疫学ワークショップの開催概要です。
 date:   2018-07-07 01:28:37 +0900
+last_modified_at: 2019-07-19 01:28:37 +0900
 categories: workshop previous
 permalink: /3rd-workshop/
 eventdate: "2019年1月24日 - 1月25日"

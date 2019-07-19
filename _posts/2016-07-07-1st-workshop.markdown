@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "第１回理論免疫学ワークショップ"
+description: 第１回理論免疫学ワークショップの開催概要です。
 date:   2016-07-09 01:28:37 +0900
+last_modified_at: 2019-07-19 01:28:37 +0900
 categories: workshop previous
 permalink: /1st-workshop/
 eventdate: "2017年1月19日-1月20日"
