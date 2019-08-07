@@ -29,6 +29,12 @@ permalink: pretty
 google_analytics: UA-85165915-12
 google_maps: AIzaSyCmNAoJl7rD3i-J8BotDmoHjNO1O-ipa1w
 
+twitter:
+  card: summary_large_image
+
+lang: ja_JP
+logo: /assets/images/logo3-1.png
+
 # Build settings
 markdown: kramdown
 theme: minima
