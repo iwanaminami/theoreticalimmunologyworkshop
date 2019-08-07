@@ -33,7 +33,7 @@ twitter:
   card: summary_large_image
 
 lang: ja_JP
-logo: /assets/images/logo3-1.png
+image: /assets/images/logo3-1.png
 
 # Build settings
 markdown: kramdown
