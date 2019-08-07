@@ -21,6 +21,7 @@
   <meta property="article:modified_time" content="{{ page.last_modified_at }}" />
 
   <meta name="twitter:card" content="{{ site.twitter.card }}" />
+  <meta name="twitter:image:src" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
