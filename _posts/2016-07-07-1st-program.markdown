@@ -6,6 +6,7 @@ date:   2016-07-09 01:28:37 +0900
 last_modified_at: 2019-07-19 01:28:37 +0900
 categories: program
 permalink: /1st-program/
+image: /assets/images/ws-1.png
 ---
 
 ![](/assets/images/ws-2.png "第２回理論免疫学ワークショップ")

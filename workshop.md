@@ -18,7 +18,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 
 [{{ post.title }}のページ]({{ post.permalink }})
 
-[![](/assets/images/{{ post.image }}.png "{{ post.title }}")]({{ post.permalink }})
+[![]({{ post.image }} "{{ post.title }}")]({{ post.permalink }})
 
 {% endfor %}
 
@@ -36,6 +36,6 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 
 [{{ post.title }}のページ]({{ post.permalink }})
 
-[![](/assets/images/{{ post.image }}.png "{{ post.title }}")]({{ post.permalink }})
+[![]({{ post.image }} "{{ post.title }}")]({{ post.permalink }})
 
 {% endfor %}

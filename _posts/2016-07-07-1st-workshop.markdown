@@ -8,7 +8,7 @@ categories: workshop previous
 permalink: /1st-workshop/
 eventdate: "2017年1月19日-1月20日"
 eventplace: "JMSアステールプラザ 大会議室A"
-image: ws-1
+image: /assets/images/ws-1.png
 ---
 
 ![](/assets/images/ws-1.png "第１回理論免疫学ワークショップ")

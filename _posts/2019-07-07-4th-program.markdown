@@ -6,6 +6,7 @@ date:   2019-07-09 01:28:37 +0900
 last_modified_at: 2019-07-19 01:28:37 +0900
 categories: program
 permalink: /4th-program/
+image: /assets/images/ws-4.png
 ---
 
 ![](/assets/images/ws-4.png "第４回理論免疫学ワークショップ")

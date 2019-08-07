@@ -8,7 +8,7 @@ categories: workshop previous
 permalink: /3rd-workshop/
 eventdate: "2019年1月24日 - 1月25日"
 eventplace: "秋田市にぎわい交流館 研修室１"
-image: ws-3
+image: /assets/images/ws-3.png
 location:
   latitude: 51.5285582
   longitude: -0.2416807
