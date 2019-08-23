@@ -6,8 +6,8 @@ date:   2019-07-07 01:28:37 +0900
 last_modified_at: 2019-07-19 01:28:37 +0900
 categories: workshop next
 permalink: /4th-workshop/
-eventdate: "2020年1月10日-1月11日（予定）"
-eventplace: "Hotel芙蓉倶楽部 和DINING　わか葉（予定）"
+eventdate: "2020年1月10日-1月11日"
+eventplace: "Hotel芙蓉倶楽部 和DINING わか葉"
 image: /assets/images/ws-4.png
 ---
 
@@ -20,8 +20,7 @@ image: /assets/images/ws-4.png
 <h3>開催日</h3>
 <p>{{ page.eventdate }}</p>
 <h3>場所</h3>
-<p>{{ page.eventplace }}</p>
-<p><a href="http://fuyouclub.jp/">会場ウェブサイト</a></p>
+<p>{{ page.eventplace }}<br><a href="http://fuyouclub.jp/">会場ウェブサイト</a></p>
 </div>
 
 <div class="page-column50">
@@ -43,9 +42,8 @@ image: /assets/images/ws-4.png
 [第４回プログラム](/4th-program)
 
 ## 事前参加登録
-参加登録フォーム準備中
 
-[参加登録フォーム](https://forms.gle/twScPJx28UGJcxPw8)
+[参加登録フォームはこちら](https://forms.gle/twScPJx28UGJcxPw8)
 
 ### 確認事項
 【宿について】  
@@ -60,10 +58,8 @@ image: /assets/images/ws-4.png
 ## アクセス
 ### ワークショップ会場
 
-{{ page.eventplace }}
-
-[会場ウェブサイト](http://fuyouclub.jp/)
-
+{{ page.eventplace }}  
+[会場ウェブサイト](http://fuyouclub.jp/)  
 住所：大分県別府市堀田７－１ ([Google Map](https://goo.gl/maps/PKFMo4hnZKUzPwyd7))
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.054698399076!2d131.4589564160101!3d33.29123196489341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a638a856d3bd%3A0xea7c895c828676ae!2z5Yil5bqc44Ob44OG44Or6IqZ6JOJ5YC25qW96YOo!5e0!3m2!1sja!2sjp!4v1565157307169!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -71,6 +67,6 @@ image: /assets/images/ws-4.png
 
 ## 共催
 
-文部科学省 科学研究費補助金 新学術領域研究（研究領域提案型）
-細胞社会ダイバーシティーの統合的解明と制御
-（予定）
+文部科学省 科学研究費補助金 新学術領域研究（研究領域提案型）  
+細胞社会ダイバーシティーの統合的解明と制御  
+[ウェブサイト](http://cdiversity.umin.jp/)
