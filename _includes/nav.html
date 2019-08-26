@@ -1,62 +1,22 @@
-<header class="site-header bg-dark" role="banner">
-  <div class="wrapper">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
-      <a class="navbar-brand font-weight-bold" href="/">{{ site.title }}</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li {% if page.url == "/" %} class="nav-item active"{% else %}class="nav-item"{% endif %}>
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/workshop" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Workshop
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {% for post in site.categories.workshop %}
-              <a class="dropdown-item" href="{{ post.permalink }}">{{ post.title }}</a>
-              {% endfor %}
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/program" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Program
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              {% for post in site.categories.program %}
-              <a class="dropdown-item" href="{{ post.permalink }}">{{ post.title }}</a>
-              {% endfor %}
-            </div>
-          </li>
-          <li {% if page.url == "/contact/" %} class="nav-item active"{% else %}class="nav-item"{% endif %}>
-            <a class="nav-link" href="/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <p><a  class="site-title" rel="author" href="/">{{ site.title }}</a></p>
-    <nav class="site-nav">
-      <div id="nav-drawer">
-        <input id="nav-input" type="checkbox" class="nav-unshown">
-        <label id="nav-open" for="nav-input"><span></span></label>
-        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-        <div id="nav-content">
-          <label id="nav-close-button" for="nav-input"><span></span></label>
-          <div class="nav-mobile-content">
-            <a class="page-link-o" href="/">Home</a>
-            <a class="page-link-o" href="/workshop/">Workshop</a>
-            <a class="page-link-o" href="/program/">Program</a>
-            <a class="page-link-o" href="/contact/">Contact</a>
-          </div>
-        </div>
-      </div>
-
-    </nav>
+<div id="nav-drawer">
+  <div class="site-title">
+    <h1>{{ site.title }}</h1>
   </div>
-
-</header>
+  <input id="nav-input" type="checkbox" class="nav-unshown">
+  <label id="nav-open" for="nav-input"><span></span></label>
+  <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+  <div id="nav-content">
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li class="site-title"><a href="/">{{ site.title }}</a></li>
+          <li {% if page.url == "/" %} class="current"{% endif %}><a href="/">Home</a></li>
+          <li {% if page.url == "/workshop/" %} class="current"{% endif %}><a href="/workshop/">Workshop</a></li>
+          <li {% if page.url == "/program/" %} class="current"{% endif %}><a href="/program/">Program</a></li>
+          <li {% if page.url == "/contact/" %} class="current"{% endif %}><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <label id="nav-close-button" for="nav-input"><span></span></label>
+  </div>
+</div>

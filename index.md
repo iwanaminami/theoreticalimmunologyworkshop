@@ -24,7 +24,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 </div>
 </div>
 
-<div class="page-strip">
+<div class="page-strip clearfix">
 <div class="wrapper">
 <h2>次回の開催</h2>
 <div class="page-column50">
