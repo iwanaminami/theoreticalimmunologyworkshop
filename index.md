@@ -72,7 +72,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 <hr>
 </div>
 
-<div class="page-strip">
+<div class="page-strip clearfix">
 <div class="wrapper">
 <h2>運営体制</h2>
 <div class="page-column50">
