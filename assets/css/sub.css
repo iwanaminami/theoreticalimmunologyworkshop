@@ -22,9 +22,7 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal;
-  display: flex;
   min-height: 100vh;
-  flex-direction: column;
 }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
@@ -139,6 +137,10 @@ a:visited{
   color: #8B0000;
 }
 
+footer{
+  padding: 10px 0;
+}
+
 /* nav */
 nav ul{
   display: table;
@@ -234,7 +236,7 @@ nav ul li.site-title, nav ul li.site-title:hover{
     font-size: 14px;
   }
   #nav-drawer {
-    position: static;
+    position: relative;
   }
   /*チェックボックス等は非表示に*/
   .nav-unshown {
@@ -365,7 +367,7 @@ nav ul li.site-title, nav ul li.site-title:hover{
 .page-content{
   padding-top: 0;
   padding-bottom: 100px;
-  height: auto;
+  height: 100%;
 }
 
 .page-strip{
