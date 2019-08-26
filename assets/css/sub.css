@@ -365,6 +365,7 @@ nav ul li.site-title, nav ul li.site-title:hover{
 .page-content{
   padding-top: 0;
   padding-bottom: 100px;
+  height: auto;
 }
 
 .page-strip{
