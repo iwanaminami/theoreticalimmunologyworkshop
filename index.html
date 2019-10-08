@@ -76,30 +76,31 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 </div>
 
 <div class="page-strip">
-<div class="wrapper clearfix">
-<h2>運営体制</h2>
-<div class="page-column50">
-<h3>主催者</h3>
-<div>
-<img src="/assets/images/iwanami.png" alt="岩波翔也" width="80px">
-</div>
-<p><strong>岩波 翔也</strong></p>
-<p>九州大学大学院システム生命科学府（数理生物学研究室）</p>
-<p>５年一貫制博士課程４年（D2）</p>
-<a href="https://shoyaiwanami.com">ウェブサイト</a><br>
-<a href="/contact">コンタクト</a>
-</div>
-
-<div class="page-column50">
-<h3>運営委員</h3>
-<p>追加予定</p>
-<ul>
-{% for member in site.data.members %}
-  <li>
-    {{ member.name }} - {{ member.affiliation }}
-  </li>
-{% endfor %}
-</ul>
-</div>
-</div>
+  <div class="wrapper">
+    <h2>運営体制</h2>
+    <h3>主催者</h3>
+    <div>
+    <img src="/assets/images/iwanami.png" alt="岩波翔也" width="80px">
+    </div>
+    <p><strong>岩波 翔也</strong><br>
+    九州大学大学院システム生命科学府（数理生物学研究室）<br>
+    ５年一貫制博士課程４年（D2）</p>
+    <p>
+      <a href="https://shoyaiwanami.com">ウェブサイト</a>・
+      <a href="/contact">コンタクト</a>
+    </p>
+    <h3>運営委員</h3>
+    <p>(50音順・敬称略)</p>
+    <div class="clearfix">
+      {% for member in site.data.members %}
+      <div class="page-column50">
+        <div>
+        <img src="{{ member.image }}" alt="{{ member.name }}" height="80px" style="border-radius: 50%">
+        </div>
+        <p><strong>{{ member.name }}</strong><br>
+        {{ member.affiliation }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
