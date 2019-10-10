@@ -1,6 +1,10 @@
+- name: 岩見 真吾
+  affiliation: 九州大学大学院理学研究院生物科学部門
+  image: /assets/images/member_iwami.jpg
+
 - name: 川上 英良
   affiliation: 理化学研究所医科学イノベーションハブ推進プログラム
-  image: /assets/images/noimage.png
+  image: https://www.riken.jp/medialibrary/riken/research/labs/mih/healthcare_med_data_multilevel_integr_plat/healthcare_meddata_drive_ai_base_predict_reasoning_dev/eiryo_kawakami.jpg?h=160&w=120
 
 - name: 小林 徹也
   affiliation: 東京大学生産技術研究所
@@ -8,16 +12,16 @@
 
 - name: 篠原 正浩
   affiliation: 国立障害者リハビリテーションセンター研究所
-  image: /assets/images/noimage.png
+  image: /assets/images/member_shinohara.png
 
 - name: 藤生 克仁
   affiliation: 東京大学大学院医学系研究科先進循環器病学
-  image: /assets/images/noimage.png
+  image: https://www.jst.go.jp/presto/hody/researcher/0214fujiu/images/photo.jpg
 
 - name: 山崎 聡
   affiliation: 東京大学医科学研究所
-  image: /assets/images/noimage.png
+  image: http://cdiversity.umin.jp/images/kobo/kobo_face_s12.jpg
 
 - name: 山本 玲
   affiliation: Institute for Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine
-  image: /assets/images/noimage.png
+  image: https://med.stanford.edu/nakauchilab/members/_jcr_content/main/panel_builder/panel_0/panel_builder_1404739720/panel_0/image.img.320.high.png
