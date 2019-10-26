@@ -43,7 +43,7 @@ image: /assets/images/ws-4.png
 
 ## 事前参加登録
 
-[参加登録フォームはこちら]()
+[参加登録フォームはこちら](https://forms.gle/gyNDuKjLtyK8ACVK8)
 
 ### 確認事項
 【宿について】  
