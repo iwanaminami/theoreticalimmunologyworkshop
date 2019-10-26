@@ -43,7 +43,9 @@ image: /assets/images/ws-4.png
 
 ## 事前参加登録
 
-[参加登録フォームはこちら](https://forms.gle/gyNDuKjLtyK8ACVK8)  
+[参加登録フォームはこちら](https://forms.gle/gyNDuKjLtyK8ACVK8)
+
+参加登録期限：  
 2019年11月10日（Hotel芙蓉倶楽部宿泊希望者）  
 2020年11月30日（Hotel芙蓉倶楽部宿泊なし・ワークショップのみ参加）
 
