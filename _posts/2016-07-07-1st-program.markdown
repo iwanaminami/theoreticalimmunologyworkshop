@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "第１回プログラム"
-description: 第１回理論免疫学ワークショップのプログラムです。
+description: 第１回理論免疫学ワークショップのプログラムです。第１回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
 date:   2016-07-09 01:28:37 +0900
-last_modified_at: 2019-07-19 01:28:37 +0900
+last_modified_at: 2019-11-06 12:42:37 +0900
 categories: program
 permalink: /1st-program/
 image: /assets/images/ws-1.png
 ---
 
-![](/assets/images/ws-2.png "第２回理論免疫学ワークショップ")
+![第１回理論免疫学ワークショップ](/assets/images/ws-2.png "第１回理論免疫学ワークショップ")
 
 ## 2017年1月19日(木)
 1日目

@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "第２回プログラム"
-description: 第２回理論免疫学ワークショップのプログラムです。
+description: 第２回理論免疫学ワークショップのプログラムです。第２回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
 date:   2017-07-09 01:28:37 +0900
-last_modified_at: 2019-07-19 01:28:37 +0900
+last_modified_at: 2019-11-06 12:41:37 +0900
 categories: program
 permalink: /2nd-program/
 image: /assets/images/ws-2.png
 ---
 
-![](/assets/images/ws-2.png "第２回理論免疫学ワークショップ")
+![第２回理論免疫学ワークショップ](/assets/images/ws-2.png "第２回理論免疫学ワークショップ")
 
 ## 2018年2月2日
 1日目
