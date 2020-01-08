@@ -80,5 +80,5 @@ Hotel芙蓉倶楽部への宿泊込みの参加登録期限後でも、ワーク
 [ウェブサイト](http://cdiversity.umin.jp/)
 
 九州大学 2019年度QRプログラム【特定プロジェクト支援】  
-「若手研究者アイデア創出交流会支援」
+「若手研究者アイデア創出交流会支援」  
 [QRプログラム](https://airimaq.kyushu-u.ac.jp/ja/teacher/page.php?code=8&side=04)
