@@ -4,7 +4,7 @@ title:  "第４回理論免疫学ワークショップ"
 description: 2020年1月10日、11日開催の第４回理論免疫学ワークショップの開催概要です。第４回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第４回理論免疫学ワークショップの参加登録はこちらから。
 date:   2019-07-07 01:28:37 +0900
 last_modified_at: 2019-12-17 12:39:37 +0900
-categories: workshop next
+categories: workshop previous
 permalink: /4th-workshop/
 eventdate: "2020年1月10日-1月11日"
 eventplace: "Hotel芙蓉倶楽部 和DINING わか葉"

@@ -11,10 +11,6 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 
 ## web上に公開したプログラム
 
-[第４回理論免疫学ワークショップ](/4th-program)
-
-[第３回理論免疫学ワークショップ](/3rd-program)
-
-[第２回理論免疫学ワークショップ](/2nd-program)
-
-[第１回理論免疫学ワークショップ](/1st-program)
+{% for post in site.categories.program %}
+[{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
