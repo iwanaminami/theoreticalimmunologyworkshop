@@ -13,6 +13,10 @@
 - name: 篠原 正浩
   affiliation: 国立障害者リハビリテーションセンター研究所
   image: /assets/images/member_shinohara.png
+  
+- name: 島村 徹平
+  affiliation: 名古屋大学大学院医学系研究科システム生物学分野
+  image: /assets/images/member_shimamura.jpg
 
 - name: 藤生 克仁
   affiliation: 東京大学大学院医学系研究科先進循環器病学
@@ -23,9 +27,9 @@
   image: /assets/images/member_honda.jpeg
 
 - name: 山崎 聡
-  affiliation: 東京大学医科学研究所
+  affiliation: 筑波大学医学医療系幹細胞治療分野
   image: /assets/images/member_yamazaki.jpg
 
 - name: 山本 玲
-  affiliation: Institute for Stem Cell Biology and Regenerative Medicine, Stanford University School of Medicine
+  affiliation: 京都大学高等研究院ヒト生物学高等研究院（ASHBi）
   image: /assets/images/member_yamamoto.jpg
