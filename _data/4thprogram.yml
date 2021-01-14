@@ -1,0 +1,29 @@
+speakers:
+  - name: test
+    affiliation: test
+    title: test
+    
+  - name: test2
+    affiliation: test2
+    title: test2
+    
+  - name: test3
+    affiliation: test3
+    title: test3
+
+times:
+  - date: 2021-02-11
+    start: 10:00
+    end:   10:30
+    
+  - date: 2021-02-11
+    start: 10:00
+    end:   10:30
+  
+  - date: 2021-02-11
+    start: 10:00
+    end:   10:30
+    
+  - date: 2021-02-11
+    start: 10:00
+    end:   10:30
