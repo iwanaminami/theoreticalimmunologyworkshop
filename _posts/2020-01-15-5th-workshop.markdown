@@ -49,8 +49,9 @@ image: /assets/images/ws-5.png
 
 参加される方には事前参加登録をお願いしております。
 
+### 参加登録フォーム
 
-~~[【オンライン参加】参加登録フォームはこちら]()~~ 準備中
+[【オンライン参加】参加登録フォームはこちら](https://forms.gle/xWbg7dSztLcVCVA4A)
 
 <small style = "color: red;">
 参加登録いただいた方に参加のためのURL等の情報をお送りいたします。
@@ -58,10 +59,8 @@ image: /assets/images/ws-5.png
 
 ### 参加登録期限
 
-<span style = "color: red;">予定</span>
-
 オンライン参加登録締め切り  
-２月第１週
+**2021年2月8日(月)**
 
 ### 確認事項
 
