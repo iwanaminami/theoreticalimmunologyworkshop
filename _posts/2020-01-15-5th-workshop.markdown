@@ -6,7 +6,7 @@ date:   2020-01-15 13:00:00 +0900
 last_modified_at: 2021-01-24 12:00:00 +0900
 categories: workshop next
 permalink: /5th-workshop/
-eventdate: "2020年2月11日-2月13日"
+eventdate: "2021年2月11日-2月13日"
 eventplace: "<strong>zoom</strong><br><s>札幌 + zoom（ハイブリッド形式）</s>"
 image: /assets/images/ws-5.png
 ---
