@@ -13,7 +13,7 @@ image: /assets/images/ws-5.png
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
 
-現在準備中で暫定の情報を掲載しております。正式リリースまでお待ちください。  
+
 更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
 
 ## 概要
