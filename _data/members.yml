@@ -8,7 +8,7 @@
 
 - name: 上野 英樹
   affiliation: 京都大学大学院医学研究科免疫細胞生物学
-  image: /assets/images/noimage.png
+  image: /assets/images/member_ueno.jpg
 
 - name: 川上 英良
   affiliation: 理化学研究所医科学イノベーションハブ推進プログラム
@@ -21,7 +21,7 @@
 - name: 篠原 正浩
   affiliation: 国立障害者リハビリテーションセンター研究所
   image: /assets/images/member_shinohara.png
-  
+
 - name: 島村 徹平
   affiliation: 名古屋大学大学院医学系研究科システム生物学分野
   image: /assets/images/member_shimamura.jpg
@@ -29,7 +29,7 @@
 - name: 藤生 克仁
   affiliation: 東京大学大学院医学系研究科先進循環器病学
   image: https://www.jst.go.jp/presto/hody/researcher/0214fujiu/images/photo.jpg
-  
+
 - name: 本田 直樹
   affiliation: 京都大学生命科学研究科理論生物学分野
   image: /assets/images/member_honda.jpeg
@@ -41,7 +41,7 @@
 - name: 山本 玲
   affiliation: 京都大学高等研究院ヒト生物学高等研究院（ASHBi）
   image: /assets/images/member_yamamoto.jpg
-  
+
 - name: 由雄 祥代
   affiliation: 国立国際医療研究センター肝炎・免疫研究センター
   image: /assets/images/member_yoshio.jpg
