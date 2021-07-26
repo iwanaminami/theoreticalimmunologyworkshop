@@ -3,8 +3,8 @@
     <div class="footer-content">
       <p class="footer-title">{{ site.title }}</p>
       <p>連絡先：<br>
-        <strong>{{ site.organizer }}</strong><br>
-        <a href="{{ site.affiliation_url }}">{{ site.affiliation }}</a><br>
+        <strong>{{ site.organizer.name }}</strong><br>
+        {{ site.affiliation.institute }}{{ site.affiliation.department }}・<a href="{{ site.affiliation_url }}">{{ site.affiliation.laboratory }}</a><br>
         {{ site.address }}<br>
         Email: {{ site.email }}
       </p>

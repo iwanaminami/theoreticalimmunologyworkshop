@@ -15,10 +15,15 @@
 # in the templates via {{ site.myvariable }}.
 title: 理論免疫学ワークショップ
 email: iwanamishoya[at]gmail.com
-organizer: 岩波翔也
-affiliation: 九州大学数理生物学研究室
-affiliation_url: http://bio-math10.biology.kyushu-u.ac.jp/
-address: 〒819-0395 福岡市西区元岡744 九州大学伊都キャンパス ウエスト１号館C-911
+organizer:
+  name: 岩波翔也
+  possition: 助教
+affiliation:
+  institute: 名古屋大学
+  department: 大学院理学研究科生命理学専攻
+  laboratory: 異分野融合生物学研究室（iBLab）
+affiliation_url: https://iblab.bio.nagoya-u.ac.jp/
+address: 〒464-8602 名古屋市千種区不老町名古屋大学 東山キャンパス 理学部Ｇ館５階
 description: >- # this means to ignore newlines until "baseurl:"
   理論免疫学ワークショップの情報を随時更新しているウェブサイトです。ワークショップ開催概要、プログラムの確認、参加登録、お問い合わせなど。数理生物学や数理科学、定量生物学などの手法を用いた免疫学の理論研究についての発表や、最先端の基礎・臨床研究の発表があり、実験・理論双方の最新技術が融合するような研究の創出に貢献します。Workshop on Theoretical Immunology.
 keywords: 理論免疫学ワークショップ, 理論免疫学, 理論, 免疫学, 数学, 数理生物学, theoretical immunology, theory, immunology
