@@ -7,7 +7,7 @@
   image: /assets/images/member_iwami.jpg
 
 - name: 上野 英樹
-  affiliation: 京都大学大学院医学研究科免疫細胞生物学
+  affiliation: 京都大学大学院医学研究科免疫細胞生物学 / 京都大学高等研究院ヒト生物学高等研究拠点（ASHBi）
   image: /assets/images/member_ueno.jpg
 
 - name: 川上 英良
@@ -39,7 +39,7 @@
   image: /assets/images/member_yamazaki.jpg
 
 - name: 山本 玲
-  affiliation: 京都大学高等研究院ヒト生物学高等研究院（ASHBi）
+  affiliation: 京都大学高等研究院ヒト生物学高等研究拠点（ASHBi）
   image: /assets/images/member_yamamoto.jpg
 
 - name: 由雄 祥代
