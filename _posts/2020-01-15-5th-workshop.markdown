@@ -8,7 +8,7 @@ categories: workshop previous
 permalink: /5th-workshop/
 eventdate: "2021年2月11日-2月13日"
 eventplace: "<strong>zoom</strong><br><s>札幌 + zoom（ハイブリッド形式）</s>"
-image: /assets/images/ws-5.png
+image: /assets/images/ws-5-2.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
