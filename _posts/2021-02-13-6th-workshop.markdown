@@ -3,7 +3,7 @@ layout: post
 title:  "第６回理論免疫学ワークショップ"
 description: 第６回理論免疫学ワークショップの開催概要です。第６回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第６回理論免疫学ワークショップの参加登録はこちらから。
 date:   2021-02-13 13:00:00 +0900
-last_modified_at: 2022-01-24 12:00:00 +0900
+last_modified_at: 2022-03-04 12:00:00 +0900
 categories: workshop next
 permalink: /6th-workshop/
 eventdate: "2022年3月12日-3月14日"
@@ -61,7 +61,8 @@ zoomへの参加のためのURLや注意事項等はそちらに掲載いたし�
 
 ### 参加登録フォーム
 
-近日中にオープン
+[＜参加登録フォームはこちら＞](https://us06web.zoom.us/webinar/register/WN_OOiOYf4CRuikGL8LfpmsFA)  
+<small>zoomウェビナーの参加登録フォームに移動します。</small>
 
 ### 参加登録期限
 
