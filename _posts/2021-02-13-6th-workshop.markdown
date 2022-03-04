@@ -6,8 +6,8 @@ date:   2021-02-13 13:00:00 +0900
 last_modified_at: 2022-01-24 12:00:00 +0900
 categories: workshop next
 permalink: /6th-workshop/
-eventdate: "2022年3月12日-3月14日（予定）"
-eventplace: "zoomウェビナー（予定）"
+eventdate: "2022年3月12日-3月14日"
+eventplace: "zoomウェビナー"
 image: /assets/images/ws-6.png
 ---
 
@@ -45,11 +45,15 @@ image: /assets/images/ws-6.png
 
 ## 参加方法
 
-準備中
+事前に参加登録をいただいた方に、参加情報に関するメールをお送りしております。  
+zoomへの参加のためのURLや注意事項等はそちらに掲載いたしますのでご確認ください。
 
 ### 対象
 
-準備中
+- 研究機関や企業等で研究活動を行なわれている方
+- 研究に関連する活動（出版等）をされている方
+
+<small>本ワークショップの趣旨を理解し、建設的な会となるようにご協力をお願いいたします。</small>
 
 ## 事前参加登録
 
@@ -57,15 +61,17 @@ image: /assets/images/ws-6.png
 
 ### 参加登録フォーム
 
-準備中
+近日中にオープン
 
 ### 参加登録期限
 
-準備中
+開催当日まで
 
 ### 確認事項
 
-- 参加登録時に登録いただいたメールアドレスと本ウェブサイトにて通知いたします。
+- 参加登録時および参加に関する情報等に記載の注意事項等をよくご確認ください。
+- 登録メールアドレスに情報が届かない方はメールにてご連絡ください。  
+[＜連絡先はこちら＞](/contact)
 
 
 
@@ -77,4 +83,28 @@ image: /assets/images/ws-6.png
 
 ## 共催
 
-準備中
+- ムーンショット型研究開発事業研究開発プロジェクト  
+**ウイルス -人体相互作用ネットワークの理解と制御**  
+代表者：松浦善治（課題推進者：川上英良、島村徹平、岩見真吾）  
+[https://www.jst.go.jp/moonshot/program/goal2/25_matsuura.html](https://www.jst.go.jp/moonshot/program/goal2/25_matsuura.html)  
+[https://ms-virus.biken.osaka-u.ac.jp/](https://ms-virus.biken.osaka-u.ac.jp/)
+
+- ムーンショット型研究開発事業研究開発プロジェクト  
+**複雑臓器制御系の数理的包括理解と超早期精密医療への挑戦**  
+代表者：合原一幸（課題推進者：岩見真吾）  
+[https://www.jst.go.jp/moonshot/program/goal2/21_aihara.html](https://www.jst.go.jp/moonshot/program/goal2/21_aihara.html)  
+[https://www.sat.t.u-tokyo.ac.jp/moonshot/](https://www.sat.t.u-tokyo.ac.jp/moonshot/)
+
+- ムーンショット型研究開発事業研究開発プロジェクト   
+**臓器連関の包括的理解に基づく認知症関連疾患の克服に向けて**  
+代表者：高橋良輔（課題推進者：本田直樹、中岡 慎治）  
+[https://www.jst.go.jp/moonshot/program/goal2/24_takahashi.html](https://www.jst.go.jp/moonshot/program/goal2/24_takahashi.html)  
+[https://monad.med.kyoto-u.ac.jp/](https://monad.med.kyoto-u.ac.jp/)
+
+- 戦略的創造研究推進事業（ＣＲＥＳＴ）コロナ対策臨時特別プロジェクト  
+**Preclinical層別化に基づく新たなデータ駆動感染症制御戦略の創出**  
+代表者：川上英良、分担研究者：中岡慎治
+
+- 戦略的創造研究推進事業（ＣＲＥＳＴ）数理的情報活用基盤  
+**構造的・動力学的制約を活用した多元混合化学情報の解読とその応用**  
+代表者：小林 徹也
