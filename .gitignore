@@ -3,4 +3,4 @@ _site
 .jekyll-metadata
 
 # mac
-.DS_Store
+*/.DS_Store
