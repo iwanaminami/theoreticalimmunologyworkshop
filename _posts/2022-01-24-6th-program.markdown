@@ -18,6 +18,11 @@ image: /assets/images/ws-6.png
 
 プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
 
+**Slido**  
+<small>コメントで交流しましょう！</small>  
+<small>※パスワードは当日お知らせいたします。</small>  
+[https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK](https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK)
+
 ---
 
 ## 2022年3月12日
