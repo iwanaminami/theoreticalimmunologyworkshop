@@ -458,6 +458,10 @@ nav ul li.site-title, nav ul li.site-title:hover{
   margin: auto;
 }
 
+.logo-listpage{
+  max-width: 500px;
+}
+
 @media (max-width: 760px) {
   .page-image-middle{
     width: 100%;

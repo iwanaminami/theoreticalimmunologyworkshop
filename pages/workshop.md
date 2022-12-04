@@ -16,7 +16,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 
 {{ post.eventdate }}
 
-[{{ post.title }}のページ]({{ post.permalink }})
+[> {{ post.title }}のページ]({{ post.permalink }})
 
 [![]({{ post.image }} "{{ post.title }}")]({{ post.permalink }})
 
@@ -34,8 +34,11 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 
 {{ post.eventdate }}
 
-[{{ post.title }}のページ]({{ post.permalink }})
-
 [![]({{ post.image }} "{{ post.title }}")]({{ post.permalink }})
+{:.logo-listpage}
+
+[> {{ post.title }}のページ]({{ post.permalink }})
+
+<div style="height: 50px"></div>
 
 {% endfor %}
