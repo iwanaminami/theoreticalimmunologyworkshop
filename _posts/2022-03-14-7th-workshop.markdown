@@ -3,7 +3,7 @@ layout: post
 title:  "第７回理論免疫学ワークショップ"
 description: 第７回理論免疫学ワークショップの開催概要です。第７回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第７回理論免疫学ワークショップの参加登録はこちらから。
 date:   2022-03-14 13:00:00 +0900
-last_modified_at: 2022-03-14 13:00:00 +0900
+last_modified_at: 2022-12-05 13:00:00 +0900
 categories: workshop next
 permalink: /7th-workshop/
 eventdate: "未定"
@@ -37,3 +37,14 @@ image:
       名古屋大学大学院理学研究科生命理学専攻・異分野融合生物学研究室（iBLab）</p>
   </div>
 </div>
+
+
+{% if site.data.orgmembers %}
+<h2>実行委員</h2>
+{% for member in site.data.orgmembers.m7th %}
+<ul>
+  <li><p><strong>{{ member.name }}</strong><br>
+  {{ member.affiliation }}</p></li>
+</ul>
+{% endfor %}
+{% endif %}
