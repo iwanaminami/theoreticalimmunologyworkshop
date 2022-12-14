@@ -6,7 +6,7 @@ date:   2017-07-09 01:28:37 +0900
 last_modified_at: 2019-11-06 12:41:37 +0900
 categories: workshop previous
 permalink: /2nd-workshop/
-eventdate: "2017年1月19日 - 1月20日"
+eventdate: "2018年2月2日 - 2月3日"
 eventplace: "富山県民共生センターサンフォルテ研修室307"
 image: /assets/images/ws-2.png
 ---
