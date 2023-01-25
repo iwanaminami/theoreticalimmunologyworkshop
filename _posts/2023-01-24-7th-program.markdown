@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "第７回プログラム"
+description: 第７回理論免疫学ワークショップのプログラムです。第７回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
+date:   2023-01-25 12:00:00 +0900
+last_modified_at: 2023-01-25 12:00:00 +0900
+categories: program
+permalink: /7th-program/
+image: /assets/images/ws-7.png
+---
+
+{% comment %}
+![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+{% endcomment %}
+
+---
+
+2023年3月19日-21日に開催予定の第７回理論免疫学ワークショップのプログラムです。  
+第７回理論免疫学ワークショップの開催概要は[こちら](/7th-workshop)をご覧ください。
+
+プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
+
+{% comment %}
+**Slido**  
+<small>コメントで交流しましょう！</small>  
+<small>※パスワードは当日お知らせいたします。</small>  
+[https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK](https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK)
+{% endcomment %}
+
+---
+
+Coming soon...

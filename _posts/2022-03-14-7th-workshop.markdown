@@ -3,7 +3,7 @@ layout: post
 title:  "第７回理論免疫学ワークショップ"
 description: 第７回理論免疫学ワークショップの開催概要です。第７回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第７回理論免疫学ワークショップの参加登録はこちらから。
 date:   2022-03-14 13:00:00 +0900
-last_modified_at: 2022-12-14 13:00:00 +0900
+last_modified_at: 2023-01-25 13:00:00 +0900
 categories: workshop next
 permalink: /7th-workshop/
 eventdate: "2023年3月19日-3月21日"
@@ -44,7 +44,9 @@ image:
 
 ## プログラム
 
-Coming soon...
+第６回理論免疫学ワークショップのプログラムは以下のリンクからご覧いただけます。
+
+[第７回プログラムはこちら](/7th-program)
 
 ## 参加方法
 
@@ -90,8 +92,12 @@ Coming soon...
 - 科学研究費助成事業（若手研究）  
 **細胞群動態の変容を捉える多階層データ解析理論の構築**  
 代表者：岩波翔也  
-[https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K15073/](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K15073/)
+[> 課題のページ](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K15073/)
 
+- 戦略的創造研究推進事業（さきがけ）「パンデミックに対してレジリエントな社会・技術基盤の構築」領域  
+**数理科学が推進するパンデミックナレッジ基盤の構築**  
+代表者：岩波翔也  
+[> 課題のページ](https://projectdb.jst.go.jp/grant/JST-PROJECT-21468972/)
 
 {% if site.data.orgmembers.m7th %}
 <h2>実行委員</h2>
