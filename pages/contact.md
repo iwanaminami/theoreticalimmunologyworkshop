@@ -9,7 +9,7 @@ last_modified_at: 2019-07-18 01:28:37 +0900
 
 # コンタクト
 
-ご意見・ご要望等は{{ site.email }}まで
+ご意見・ご要望等は {{ site.email }} まで
 
 ### 連絡先
 {{ site.organizer.name }}（[ウェブサイト](https://shoyaiwanami.com)）

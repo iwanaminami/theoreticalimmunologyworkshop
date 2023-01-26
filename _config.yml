@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 理論免疫学ワークショップ
-email: iwanamishoya[at]gmail.com
+email: tiwssupport@googlegroups.com
 organizer:
   name: 岩波翔也
   possition: 助教
@@ -33,7 +33,6 @@ url: "https://workshop.theoreticalimmunology.jp" # the base hostname & protocol 
 # github_username:  jekyll
 permalink: pretty
 google_analytics: UA-85165915-12
-google_maps: AIzaSyCmNAoJl7rD3i-J8BotDmoHjNO1O-ipa1w
 
 twitter:
   card: summary_large_image
