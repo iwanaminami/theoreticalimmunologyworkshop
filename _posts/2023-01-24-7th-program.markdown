@@ -9,9 +9,13 @@ permalink: /7th-program/
 image: /assets/images/ws-7.png
 ---
 
-{% comment %}
+
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
-{% endcomment %}
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+
+<div style="height:50px"></div>
 
 ---
 

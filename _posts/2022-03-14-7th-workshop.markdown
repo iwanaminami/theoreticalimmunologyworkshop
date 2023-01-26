@@ -8,12 +8,16 @@ categories: workshop next
 permalink: /7th-workshop/
 eventdate: "2023年3月19日-3月21日"
 eventplace: "ライカ貸会議室 Room A<br>〒890-0053 鹿児島県鹿児島市中央町19-40 ライカ イチキューニーマル 5F<br><a href='https://li-ka1920.jp/'>ライカ イチキューニーマル</a><br><a href='https://li-ka1920.jp/floor-map/archives/category/5f'>フロアマップ</a>"
-image:
+image: /assets/images/ws-7.png
 ---
 
-{% if page.image %}
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
-{% endif %}
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+
+<div style="height:50px"></div>
+
 
 更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
 
