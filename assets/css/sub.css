@@ -501,6 +501,20 @@ nav ul li.site-title, nav ul li.site-title:hover{
 }
 
 
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #FF4500;
+  padding: 10px 25px;
+  border-radius: 3px;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #FF6600;
+}
+
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlighter-rouge .highlight { background: #eef; }

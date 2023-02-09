@@ -21,7 +21,8 @@ image: /assets/images/ws-7.png
 
 更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
 
-開催をお待ちください。
+{% include button.html sentence="参加登録はこちら" url="#registration" %}
+
 
 ## 概要
 
@@ -52,9 +53,14 @@ image: /assets/images/ws-7.png
 
 [第７回プログラムはこちら](/7th-program)
 
+
 ## 参加方法
 
-Coming soon...
+現地参加またはzoomウェビナーでの参加
+
+オンライン参加について：  
+事前に参加登録をいただいた方に、参加情報に関するメールをお送りしております。  
+zoomへの参加のためのURLや注意事項等はそちらに掲載いたしますのでご確認ください。
 
 ### 対象
 
@@ -64,20 +70,23 @@ Coming soon...
 <small>本ワークショップの趣旨を理解し、建設的な会となるようにご協力をお願いいたします。</small>
 
 ## 事前参加登録
+{:#registration}
 
-Coming soon...
+参加される方には事前参加登録をお願いしております。
 
 ### 参加登録フォーム
 
-Coming soon...
+[＜参加登録フォームはこちら＞](https://forms.gle/qYeegaPPRfGcSS6V7)  
 
 ### 参加登録期限
 
-Coming soon...
+2023年2月28日(火)まで
 
 ### 確認事項
 
-Coming soon...
+- 参加登録時および参加に関する情報等に記載の注意事項等をよくご確認ください。
+- 登録メールアドレスに情報が届かない方はメールにてご連絡ください。  
+[＜連絡先はこちら＞](/contact)
 
 ## アクセス
 ### ワークショップ会場
