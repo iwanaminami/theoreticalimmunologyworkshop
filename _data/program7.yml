@@ -490,8 +490,8 @@
   Student: "1"
   Break: "0"
   Name: "堅山 耀太郎"
-  Affiliation: "TBA"
-  Talk_title: "TBA"
+  Affiliation: "東京大学大学院工学系研究科"
+  Talk_title: "深層学習によるTCR-pMHC結合予測"
   
 - Date: "2023年3月21日(火)"
   id_Date: "3"
