@@ -108,7 +108,7 @@ zoomへの参加のためのURLや注意事項等はそちらに掲載いたし�
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.428370691764!2d130.542959557513!3d31.58305322569934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x353e6735980a7521%3A0x31a12c080640ad08!2zTGktS2ExOTIwKOODqeOCpOOCqzE5MjAv6bm_5YWQ5bO25Lit5aSu44K_44Ov44O8KQ!5e0!3m2!1sja!2sjp!4v1671032702468!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-## 研究支援
+## 共催・研究支援
 
 Coming soon...
 
