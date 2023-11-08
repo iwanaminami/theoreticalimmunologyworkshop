@@ -157,6 +157,10 @@ footer{
   padding: 10px 0;
 }
 
+hr{
+  margin: 30px;
+}
+
 /* nav */
 nav ul{
   display: table;
