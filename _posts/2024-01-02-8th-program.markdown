@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "第８回プログラム"
+description: 第８回理論免疫学ワークショップのプログラムです。第８回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
+date:   2024-01-02 12:00:00 +0900
+last_modified_at: 2024-01-02 12:00:00 +0900
+categories: program
+permalink: /8th-program/
+image: /assets/images/ws-8.png
+---
+
+
+{% comment %}
+![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+{% endcomment %}
+
+{% comment %}
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+{% endcomment %}
+
+
+
+<div style="height:50px"></div>
+
+---
+
+2024年2月12日-14日に開催予定の第８回理論免疫学ワークショップのプログラムです。  
+第８回理論免疫学ワークショップの開催概要は[こちら](/8th-workshop)をご覧ください。
+
+プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
+
+{% comment %}
+**Slido**  
+<small>コメントで交流しましょう！</small>  
+<small>※パスワードは当日お知らせいたします。</small>  
+[https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK](https://app.sli.do/event/4iLSjYgdDZbTRh7bmtUevK)
+{% endcomment %}
+
+---
+
+準備中
+
+## 2024年2月12日（暫定）
+
+13:00 - 17:00 講演  
+19:00 - 21:00 懇親会
+
+## 2024年2月13日（暫定）
+
+10:00 - 17:00 講演
+
+## 2024年2月14日（暫定）
+
+10:00 - 16:00 講演

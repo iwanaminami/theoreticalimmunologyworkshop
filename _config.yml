@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 理論免疫学ワークショップ
-email: tiwssupport [at] iblab.bio.nagoya-u.ac.jp
+email: support [at] theoreticalimmunology.jp
 organizer:
   name: 岩波翔也
   possition: 講師
