@@ -10,14 +10,10 @@ image: /assets/images/ws-8.png
 ---
 
 
-{% comment %}
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
-{% endcomment %}
 
-{% comment %}
 <small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
 {:style="text-align:right"}
-{% endcomment %}
 
 
 

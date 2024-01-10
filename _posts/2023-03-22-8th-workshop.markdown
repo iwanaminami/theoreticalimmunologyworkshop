@@ -8,12 +8,13 @@ categories: workshop next
 permalink: /8th-workshop/
 eventdate: "2024年2月12日-2月14日"
 eventplace: "いわて県民情報交流センター(アイーナ) 会議室501<br>〒020-0045 岩手県盛岡市盛岡駅西通１丁目７−１ アイーナ5F<br><a href='https://maps.app.goo.gl/ASdB49H5qaVZHA5K7'>Googleマップ</a><br><a href='https://www.aiina.jp/'>いわて県民情報交流センター(アイーナ)</a><br><a href='https://www.aiina.jp/soshiki/2/31.html'>フロアマップ</a>"
-image: 
+image: /assets/images/ws-8.png
 ---
 
-{% if page.image %}
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
-{% endif %}
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
 
 <div style="height:50px"></div>
 
