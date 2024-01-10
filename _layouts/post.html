@@ -5,10 +5,12 @@
     {% include nav.html %}
     <main class="page-content" aria-label="Content">
       {% include header.html %}
-      <div class="wrapper">
+      <div class="wrapper wrapper-post">
+        {% comment %}
         {% if page.categories %}
         <p class="pt-0 pb-3">カテゴリ：<span class="text-white bg-dark p-2">{{ page.categories[0] }}</span></p>
         {% endif %}
+        {% endcomment %}
         <section>
           {{ content }}
         </section>

@@ -369,6 +369,10 @@ nav ul li.site-title, nav ul li.site-title:hover{
   margin: auto;
 }
 
+.wrapper-post {
+  padding-top: 40px;
+}
+
 @media (max-width: 1200px) {
   .wrapper{
     width: auto;
