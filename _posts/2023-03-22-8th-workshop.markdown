@@ -4,7 +4,7 @@ title:  "第８回理論免疫学ワークショップ"
 description: 第８回理論免疫学ワークショップの開催概要です。第８回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第８回理論免疫学ワークショップの参加登録はこちらから。
 date:   2023-03-22 13:00:00 +0900
 last_modified_at: 2024-01-16 13:00:00 +0900
-categories: workshop next
+categories: workshop previous
 permalink: /8th-workshop/
 eventdate: "2024年2月12日-2月14日"
 eventplace: "いわて県民情報交流センター(アイーナ) 会議室501<br>〒020-0045 岩手県盛岡市盛岡駅西通１丁目７−１ アイーナ5F<br><a href='https://maps.app.goo.gl/ASdB49H5qaVZHA5K7'>Googleマップ</a><br><a href='https://www.aiina.jp/'>いわて県民情報交流センター(アイーナ)</a><br><a href='https://www.aiina.jp/soshiki/2/31.html'>フロアマップ</a>"
