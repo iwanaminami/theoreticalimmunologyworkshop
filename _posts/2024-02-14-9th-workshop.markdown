@@ -5,7 +5,7 @@ description: 第９回理論免疫学ワークショップの開催概要です�
 date:   2024-02-14 13:00:00 +0900
 last_modified_at: 2024-02-14 13:00:00 +0900
 categories: workshop next
-permalink: /8th-workshop/
+permalink: /9th-workshop/
 eventdate: "未定"
 eventplace: "未定"
 image: /assets/images/ws-next.png
