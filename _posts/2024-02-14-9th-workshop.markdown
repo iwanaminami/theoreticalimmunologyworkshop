@@ -7,7 +7,7 @@ last_modified_at: 2024-08-08 12:00:00 +0900
 categories: workshop next
 permalink: /9th-workshop/
 eventdate: "2025年2月3日-2月5日"
-eventplace: "未定"
+eventplace: "高知県立県民文化ホール・多目的室第6室<br>〒780-0870 高知県高知市本町4丁目3ｰ30<br><a href='https://maps.app.goo.gl/Zu6z1k7tGT62rZRu7'>Googleマップ</a><br><a href='https://kkb-hall.jp/'>高知県立県民文化ホール</a><br><a href='https://kkb-hall.jp/facility/multipurpose.html'>多目的室一覧</a>"
 image: /assets/images/ws-next.png
 ---
 
