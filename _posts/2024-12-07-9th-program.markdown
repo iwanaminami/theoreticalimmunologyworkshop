@@ -6,9 +6,15 @@ date:   2024-12-07 12:00:00 +0900
 last_modified_at: 2024-12-07 12:00:00 +0900
 categories: program
 permalink: /9th-program/
-image: #/assets/images/ws-9.png
+image: /assets/images/ws-9.png
 ---
 
+![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+
+<div style="height:50px"></div>
 
 ---
 

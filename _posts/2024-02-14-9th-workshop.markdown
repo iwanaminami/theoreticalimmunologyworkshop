@@ -3,15 +3,18 @@ layout: post
 title:  "第９回理論免疫学ワークショップ"
 description: 第９回理論免疫学ワークショップの開催概要です。第９回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第９回理論免疫学ワークショップの参加登録はこちらから。
 date:   2024-02-14 13:00:00 +0900
-last_modified_at: 2024-08-08 12:00:00 +0900
+last_modified_at: 2024-12-18 12:00:00 +0900
 categories: workshop next
 permalink: /9th-workshop/
 eventdate: "2025年2月3日-2月5日"
 eventplace: "高知県立県民文化ホール・多目的室第6室<br>〒780-0870 高知県高知市本町4丁目3ｰ30<br><a href='https://maps.app.goo.gl/Zu6z1k7tGT62rZRu7'>Googleマップ</a><br><a href='https://kkb-hall.jp/'>高知県立県民文化ホール</a><br><a href='https://kkb-hall.jp/facility/multipurpose.html'>多目的室一覧</a>"
-image: /assets/images/ws-next.png
+image: /assets/images/ws-9.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
 
 <div style="height:50px"></div>
 
@@ -73,3 +76,14 @@ image: /assets/images/ws-next.png
 ## 共催・研究支援
 
 準備中
+
+
+{% if site.data.orgmembers.m9th %}
+<h2>実行委員</h2>
+{% for member in site.data.orgmembers.m9th %}
+<ul>
+  <li><p><strong>{{ member.name }}</strong><br>
+  {{ member.affiliation }}</p></li>
+</ul>
+{% endfor %}
+{% endif %}
