@@ -3,7 +3,7 @@ layout: post
 title:  "第９回理論免疫学ワークショップ"
 description: 第９回理論免疫学ワークショップの開催概要です。第９回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第９回理論免疫学ワークショップの参加登録はこちらから。
 date:   2024-02-14 13:00:00 +0900
-last_modified_at: 2024-12-18 12:00:00 +0900
+last_modified_at: 2024-12-23 12:00:00 +0900
 categories: workshop next
 permalink: /9th-workshop/
 eventdate: "2025年2月3日-2月5日"
@@ -19,6 +19,8 @@ image: /assets/images/ws-9.png
 <div style="height:50px"></div>
 
 更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+
+{% include button.html sentence="参加登録はこちら" url="#registration" %}
 
 ## 概要
 
@@ -54,6 +56,8 @@ image: /assets/images/ws-9.png
 ## 参加方法
 {:#registration}
 
+本年度は対面でのみの開催です。事前参加登録をお願いいたします。
+
 ### 対象
 
 - 研究機関や企業等で研究活動を行なわれている方
@@ -63,7 +67,25 @@ image: /assets/images/ws-9.png
 
 ## 事前参加登録
 
-準備中
+参加される方には事前参加登録をお願いしております。
+
+### 参加登録フォーム
+
+[＜参加登録フォーム＞](https://forms.gle/p8Dqhbso1koDv4dN8)
+
+- ワークショップに関連する情報を 9thworkshop\[at\]theoreticalimmunology.jp よりお送りいたしますので受信設定をお願いいたします。
+- ご登録いただいた情報は、第９回理論免疫学ワークショップに関する手続きと、名古屋大学大学院理学研究科・異分野融合生物学研究室（iBLab）に関連する研究集会等の案内に利用いたします。
+- 登録に関するお問い合わせは[＜Contact＞](/contact)からご連絡ください。
+
+### 参加登録期限
+
+2025年1月17日(金)
+
+### 確認事項
+
+- 参加登録時および参加に関する情報等に記載の注意事項等をよくご確認ください。
+- 登録メールアドレスに情報が届かない方はメールにてご連絡ください。  
+[＜連絡先はこちら＞](/contact)
 
 ## アクセス
 {:#access}
@@ -72,6 +94,7 @@ image: /assets/images/ws-9.png
 
 {{ page.eventplace }}  
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3928.720554869108!2d133.5361444874088!3d33.5610458391329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e193c97cc3d9f%3A0xced0e176270f7cf6!2z6auY55-l55yM56uL55yM5rCR5paH5YyW44Ob44O844Or!5e0!3m2!1sja!2sjp!4v1734932556510!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## 共催・研究支援
 
