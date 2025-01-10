@@ -3,7 +3,7 @@ layout: post
 title:  "第９回プログラム"
 description: 第９回理論免疫学ワークショップのプログラムです。第９回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
 date:   2024-12-07 12:00:00 +0900
-last_modified_at: 2025-01-09 12:00:00 +0900
+last_modified_at: 2025-01-10 12:00:00 +0900
 categories: program
 permalink: /9th-program/
 image: /assets/images/ws-9.png
