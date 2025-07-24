@@ -3,14 +3,39 @@ layout: post
 title:  "第１０回理論免疫学ワークショップ"
 description: 第１０回理論免疫学ワークショップの開催概要です。第１０回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第１０回理論免疫学ワークショップの参加登録はこちらから。
 date:   2025-02-10 12:00:00 +0900
-last_modified_at: 2025-02-10 12:00:00 +0900
+last_modified_at: 2025-07-24 12:00:00 +0900
 categories: workshop next
 permalink: /10th-workshop/
-eventdate: "未定"
-eventplace: "未定"
+eventdate: "2026年1月19日-1月21日（予定）"
+eventplace: "朱鷺メッセ（予定）<br>〒950-0078 新潟市中央区万代島6番1号<br><a href='https://maps.app.goo.gl/fCJ4VyXkYwFk4UGd9'>Googleマップ</a><br><a href='https://www.tokimesse.com/'>朱鷺メッセ　新潟コンベンションセンター</a>"
 image: /assets/images/ws-next.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
 
 準備中
+
+<div style="height:50px"></div>
+
+更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+
+## 概要
+
+<div class="cf">
+  <div class="page-column50">
+    <h3>開催日</h3>
+    <p>{{ page.eventdate }}</p>
+    <h3>場所</h3>
+    <p>{{ page.eventplace }}</p>
+  </div>
+
+  <div class="page-column50">
+    <h3>使用言語</h3>
+    <p>日本語</p>
+    <h3>オーガナイザー</h3>
+    <p>岩波翔也<br>
+      名古屋大学大学院理学研究科生命理学専攻・異分野融合生物学研究室（iBLab）</p>
+    <h3>参加費</h3>
+    <p>無料</p>
+  </div>
+</div>
