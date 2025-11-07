@@ -1,0 +1,147 @@
+<div id="ws-map" class="stage">
+  <style>
+    #ws-map{max-width:1200px;margin:6px auto 32px;border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.08);overflow:hidden;background:#fff}
+    #ws-map svg{width:100%;display:block}
+    #ws-map .hint{font-size:12px;color:#666;text-align:center;margin:6px 0 0}
+  </style>
+
+  <svg id="wsMapSvg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+    <image id="wsBgImage" x="0" y="0" width="1200" height="900" />
+    <g id="wsStemsLayer"></g>
+    <g id="wsIconsLayer"></g>
+  </svg>
+</div>
+<script>(()=>{
+  const BACKGROUND_IMAGE = "https://workshop.theoreticalimmunology.jp/assets/images/place_plane.png";
+  const LINK_PATH_PREFIX = "https://workshop.theoreticalimmunology.jp/";
+  const LINK_PATH_SUFFIX = "-workshop/";
+  const ICON_IMAGE_PREFIX = "https://workshop.theoreticalimmunology.jp/assets/images/ws-";
+  const ICON_IMAGE_SUFFIX = ".png";
+
+  function ordinal(n){
+    const v = n % 100;
+    if (v >= 11 && v <= 13) return `${n}th`;
+    switch(n % 10){
+      case 1: return `${n}st`;
+      case 2: return `${n}nd`;
+      case 3: return `${n}rd`;
+      default: return `${n}th`;
+    }
+  }
+
+  const PINS = [
+    {id:1, x:25,  y:64.5,   attach:'bottom', offsetX:-100,   offsetY:-20,   slug:'1st'},
+    {id:2, x:39.5,y:53.5, attach:'bottom', offsetX:-70, offsetY:-50,   slug:'2nd'},
+    {id:3, x:49,  y:35.5, attach:'bottom', offsetX:-200,offsetY:0,  slug:'3rd'},
+    {id:4, x:20.5,y:70.8,   attach:'top',    offsetX:150, offsetY:20, slug:'4th'},
+    {id:5, x:72.7,  y:58,   attach:'bottom', offsetX:20,   offsetY:-20,   slug:'5th'},
+    {id:6, x:72.7,  y:66,   attach:'top',    offsetX:20, offsetY:20,  slug:'6th'},
+    {id:7, x:17,  y:78,   attach:'top',    offsetX:20,  offsetY:50, slug:'7th'},
+    {id:8, x:52.5,  y:36.5, attach:'bottom',    offsetX:250,  offsetY:0,   slug:'8th'},
+    {id:9, x:27,  y:69.8, attach:'bottom',    offsetX:250,  offsetY:0,   slug:'9th'}
+  ];
+
+  const ICON_H_BASE = 40;
+  const ICON_H_MOBILE = 45;
+  const ICON_GAP = 30;
+  const LINE_GAP = 8;
+  const NEAR_THRESHOLD_BASE = 260;
+  const REPULSION_STRENGTH = 0.32;
+  const STEM_COLOR = '#ff8c00';
+  const STEM_WIDTH = 4;
+  const DOT_RADIUS = 6;
+  const PULL_STRENGTH = 0.08;
+  const MAX_PULL = 25;
+  const SPRING_K = 0.01;
+  const RETURN_DAMPING = 0.9;
+
+  const svg=document.getElementById('wsMapSvg');
+  const stemsLayer=document.getElementById('wsStemsLayer');
+  const iconsLayer=document.getElementById('wsIconsLayer');
+  const bg=document.getElementById('wsBgImage');
+  bg.setAttribute('href',BACKGROUND_IMAGE);
+
+  const vb=svg.viewBox.baseVal;
+  const toXY=(p)=>({x:vb.x+vb.width*(p.x/100),y:vb.y+vb.height*(p.y/100)});
+
+  function iconHeight(){const w=svg.getBoundingClientRect().width;return w<640?ICON_H_MOBILE:ICON_H_BASE;}
+  let currentIconH=iconHeight();let NEAR_THRESHOLD=NEAR_THRESHOLD_BASE;
+  window.addEventListener('resize',()=>{currentIconH=iconHeight();updateIconSizes();});
+
+  function preloadAspect(url,cb){const im=new Image();im.onload=()=>cb(im.naturalWidth/im.naturalHeight||1);im.onerror=()=>cb(1);im.src=url;}
+
+  const STATE=PINS.map((p,i)=>{
+    const anchor=toXY(p);
+    const group=document.createElementNS('http://www.w3.org/2000/svg','g');
+    const stem=document.createElementNS('http://www.w3.org/2000/svg','path');
+    stem.setAttribute('stroke',STEM_COLOR);
+    stem.setAttribute('stroke-width',STEM_WIDTH);
+    stem.setAttribute('fill','none');
+    stem.setAttribute('stroke-linecap','round');
+    group.appendChild(stem);
+    const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('cx',anchor.x);
+    dot.setAttribute('cy',anchor.y);
+    dot.setAttribute('r',DOT_RADIUS);
+    dot.setAttribute('fill',STEM_COLOR);
+    group.appendChild(dot);
+    stemsLayer.appendChild(group);
+
+    const iconG=document.createElementNS('http://www.w3.org/2000/svg','g');
+    const a=document.createElementNS('http://www.w3.org/2000/svg','a');
+    a.setAttribute('target','_blank');
+    const ord=p.slug||ordinal(p.id);
+    a.setAttribute('href',`${LINK_PATH_PREFIX}${ord}${LINK_PATH_SUFFIX}`);
+
+    const img=document.createElementNS('http://www.w3.org/2000/svg','image');
+    const url=`${ICON_IMAGE_PREFIX}${p.id}${ICON_IMAGE_SUFFIX}`;
+    img.setAttribute('href',url);
+    img.setAttribute('width',ICON_H_BASE);
+    img.setAttribute('height',ICON_H_BASE);
+    img.setAttribute('x',-ICON_H_BASE/2);
+    img.setAttribute('y',-ICON_H_BASE/2);
+    a.appendChild(img);
+    iconG.appendChild(a);
+    iconsLayer.appendChild(iconG);
+
+    const S={p,anchor,stem,iconG,img,attach:p.attach||'bottom',offsetX:p.offsetX,offsetY:p.offsetY,pos:{x:anchor.x,y:anchor.y},vel:{x:0,y:0},phase:i*0.91+1.7,freq:0.6+(i%5)*0.07,aspect:1,dispW:ICON_H_BASE,dispH:ICON_H_BASE};
+    preloadAspect(url,ar=>{S.aspect=ar||1;applyIconSize(S,currentIconH);});
+    return S;
+  });
+
+  function applyIconSize(S,h){S.dispH=h;S.dispW=h*(S.aspect||1);S.img.setAttribute('width',S.dispW);S.img.setAttribute('height',S.dispH);S.img.setAttribute('x',-S.dispW/2);S.img.setAttribute('y',-S.dispH/2);}
+  function updateIconSizes(){STATE.forEach(S=>applyIconSize(S,currentIconH));}
+  updateIconSizes();
+
+  let mouse={x:Infinity,y:Infinity};
+  svg.addEventListener('pointermove',e=>{const pt=svg.createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;const ipt=pt.matrixTransform(svg.getScreenCTM().inverse());mouse={x:ipt.x,y:ipt.y};});
+  svg.addEventListener('pointerleave',()=>{mouse={x:Infinity,y:Infinity};});
+
+  function nearestIndex(){let best=-1,bestD2=1e18;for(let i=0;i<STATE.length;i++){const S=STATE[i];const dx=mouse.x-S.anchor.x;const dy=mouse.y-S.anchor.y;const d2=dx*dx+dy*dy;if(d2<bestD2){bestD2=d2;best=i;}}return Math.sqrt(bestD2)<NEAR_THRESHOLD?best:-1;}
+  function spontaneous(t,S){const a=10,b=7;const x=Math.sin(t*(1.2+S.freq)+S.phase)*a+Math.sin(t*0.37+S.phase*1.7)*b;const y=Math.cos(t*(0.9+S.freq*0.6)+S.phase*0.7)*(a*0.6)+Math.sin(t*0.19+S.phase*2.1)*(b*0.9);return{x,y};}
+
+  function animate(ts){
+    const t=ts/1000;currentIconH=iconHeight();updateIconSizes();const near=nearestIndex();
+    const repel=STATE.map(()=>({x:0,y:0}));
+    for(let i=0;i<STATE.length;i++){
+      for(let j=i+1;j<STATE.length;j++){
+        const A=STATE[i],B=STATE[j];const dx=B.pos.x-A.pos.x;const dy=B.pos.y-A.pos.y;const dist=Math.hypot(dx,dy)||1;const minSep=Math.max(64,(A.dispW+B.dispW)/2*0.6);
+        if(dist<minSep){const overlap=(minSep-dist);const f=(overlap/minSep)*REPULSION_STRENGTH*minSep;const ux=dx/dist,uy=dy/dist;repel[i].x-=ux*f;repel[i].y-=uy*f;repel[j].x+=ux*f;repel[j].y+=uy*f;}
+      }
+    }
+    STATE.forEach((S,i)=>{
+      const wob=spontaneous(t,S);
+      const baseX=S.anchor.x;
+      const baseY=S.attach==='top'?(S.anchor.y+(S.dispH/2+ICON_GAP)):(S.anchor.y-(S.dispH/2+ICON_GAP));
+      let tx=baseX+S.offsetX+wob.x+repel[i].x;let ty=baseY+S.offsetY+wob.y+repel[i].y;
+      if(i===near){const dx=mouse.x-S.pos.x;const dy=mouse.y-S.pos.y;const dist=Math.hypot(dx,dy)||1;const pull=Math.min(MAX_PULL,dist*PULL_STRENGTH);tx+=dx/dist*pull;ty+=dy/dist*pull;}
+      const k=SPRING_K,d=RETURN_DAMPING;S.vel.x=(S.vel.x+(tx-S.pos.x)*k)*d;S.vel.y=(S.vel.y+(ty-S.pos.y)*k)*d;S.pos.x+=S.vel.x;S.pos.y+=S.vel.y;
+      const endX=S.pos.x;const endY=S.attach==='top'?(S.pos.y-S.dispH/2-LINE_GAP):(S.pos.y+S.dispH/2+LINE_GAP);
+      const dPath=`M ${(S.anchor.x).toFixed(1)} ${(S.anchor.y).toFixed(1)} L ${(endX).toFixed(1)} ${(endY).toFixed(1)}`;
+      S.stem.setAttribute('d',dPath);
+      S.iconG.setAttribute('transform',`translate(${S.pos.x.toFixed(2)} ${S.pos.y.toFixed(2)})`);
+    });
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+})();</script>

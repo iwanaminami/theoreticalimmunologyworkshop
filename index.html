@@ -65,10 +65,17 @@ last_modified_at: 2019-07-12 01:28:37 +0900
   <div class="wrapper">
     <h2>過去の開催</h2>
     <p>理論免疫学ワークショップは毎年1月、2月ごろに開催しています。日本各地から免疫学に関わる理論・実証研究を行う研究者の方々に参加いただいています。特定の場所にこだわらず、参加者の方々が熱く議論できるよう趣向を凝らして開催してまいります。</p>
-    <p style="text-align: center;"><a href="/workshop">[過去の開催情報はこちら]</a></p>
+
+    {% include button.html sentence="過去の開催情報はこちら" url="/workshop" %}
+    
+
+    <!--
     <div class="page-image-middle">
       <img src="/assets/images/place.png" alt="過去の開催地">
     </div>
+    -->
+
+    {% include map.html %}
   </div>
 </div>
 
@@ -86,8 +93,9 @@ last_modified_at: 2019-07-12 01:28:37 +0900
       info[at]theoreticalimmunology.jp
     </p>
     <p>
-      退会するための情報についてはお送りするメールをご参照いただくか、<a href = "/contact">コンタクト</a>までご連絡ください。
+      退会するための情報についてはお送りするメールをご参照いただくか、以下までご連絡ください。
     </p>
+    {% include button.html sentence="コンタクト" url="/contact" %}
   </div>
 </div>
 
