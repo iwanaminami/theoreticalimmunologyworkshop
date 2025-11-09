@@ -373,6 +373,12 @@ nav ul li.site-title, nav ul li.site-title:hover{
   padding-top: 40px;
 }
 
+@media (max-width: 760px) {
+  .wrapper-post{
+    padding-top: 10px;
+  }
+}
+
 @media (max-width: 1200px) {
   .wrapper{
     width: auto;
@@ -412,9 +418,16 @@ nav ul li.site-title, nav ul li.site-title:hover{
   padding-top: 200px;
   padding-bottom: 200px;
   margin-bottom: 10px;
-  background-image: url("/assets/images/back-kochi.jpg");
+  background-image: url("/assets/images/back-niigata.jpg");
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 760px) {
+  .page-strip-header{
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
 }
 
 .clearfix:after{
@@ -440,14 +453,14 @@ nav ul li.site-title, nav ul li.site-title:hover{
 }
 
 .page-header-text{
-  font-size: 3.5vw;
+  font-size: min(4vw,30pt);
   font-weight: 900;
   color: #ffffff;
 }
 
 @media (max-width: 760px) {
   .page-header-text{
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 0;
   }
 }

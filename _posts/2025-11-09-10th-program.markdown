@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "第１０回プログラム"
+description: 第１０回理論免疫学ワークショップのプログラムです。第１０回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
+date:   2025-11-09 12:00:00 +0900
+last_modified_at: 2025-11-09 12:00:00 +0900
+categories: program
+permalink: /10th-program/
+image: /assets/images/ws-10.png
+---
+
+![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+
+<div style="height:50px"></div>
+
+---
+
+2026年1月19日-21日に開催予定の第１０回理論免疫学ワークショップのプログラムです。  
+第１０回理論免疫学ワークショップの開催概要は[こちら](/10th-workshop)をご覧ください。
+
+プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
+
+---
+
+準備中
+
+## 2026年1月19日
+
+
+## 2026年1月20日
+
+
+## 2026年1月21日

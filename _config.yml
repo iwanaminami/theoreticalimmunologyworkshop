@@ -39,6 +39,7 @@ twitter:
 
 lang: ja_JP
 image: /assets/images/logo3-1.png
+backimage: /assets/images/back-niigata.jpg
 
 # Build settings
 markdown: kramdown

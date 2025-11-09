@@ -3,21 +3,24 @@ layout: post
 title:  "第１０回理論免疫学ワークショップ"
 description: 第１０回理論免疫学ワークショップの開催概要です。第１０回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第１０回理論免疫学ワークショップの参加登録はこちらから。
 date:   2025-02-10 12:00:00 +0900
-last_modified_at: 2025-07-24 12:00:00 +0900
+last_modified_at: 2025-11-09 12:00:00 +0900
 categories: workshop next
 permalink: /10th-workshop/
 eventdate: "2026年1月19日-1月21日（予定）"
 eventplace: "朱鷺メッセ（予定）<br>〒950-0078 新潟市中央区万代島6番1号<br><a href='https://maps.app.goo.gl/fCJ4VyXkYwFk4UGd9'>Googleマップ</a><br><a href='https://www.tokimesse.com/'>朱鷺メッセ　新潟コンベンションセンター</a>"
-image: /assets/images/ws-next.png
+image: /assets/images/ws-10.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
 
-準備中
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
 
 <div style="height:50px"></div>
 
 更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+
+{% include button.html sentence="参加登録はこちら" url="#registration" %}
 
 ## 概要
 
@@ -39,3 +42,73 @@ image: /assets/images/ws-next.png
     <p>無料</p>
   </div>
 </div>
+
+
+## 開催趣旨
+
+準備中
+
+## プログラム
+
+{% include button.html sentence="第１０回プログラムはこちら" url="../10th-program" %}
+
+
+## 参加方法
+{:#registration}
+
+本年度は対面でのみの開催です。事前参加登録をお願いいたします。
+
+### 対象
+
+- 研究機関や企業等で研究活動を行なわれている方
+- 研究に関連する活動（出版等）をされている方
+
+<small>本ワークショップの趣旨を理解し、建設的な会となるようにご協力をお願いいたします。</small>
+
+## 事前参加登録
+
+参加される方には事前参加登録をお願いしております。
+
+### 参加登録フォーム
+
+準備中
+
+{% include button.html sentence="参加登録フォーム" url="#" %}
+
+- ワークショップに関連する情報を 10thworkshop\[at\]theoreticalimmunology.jp よりお送りいたしますので受信設定をお願いいたします。
+- ご登録いただいた情報は、第１０回理論免疫学ワークショップに関する手続きと、名古屋大学大学院理学研究科・異分野融合生物学研究室（iBLab）に関連する研究集会等の案内に利用いたします。
+- 登録に関するお問い合わせは[＜Contact＞](/contact)からご連絡ください。
+
+### 参加登録期限
+
+準備中
+
+### 確認事項
+
+- 参加登録時および参加に関する情報等に記載の注意事項等をよくご確認ください。
+- 登録メールアドレスに情報が届かない方はメールにてご連絡ください。  
+[＜連絡先はこちら＞](/contact)
+
+## アクセス
+{:#access}
+
+### ワークショップ会場
+
+{{ page.eventplace }}  
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.171040997426!2d139.0578518771079!3d37.926434471947395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4ca1e70971c4b%3A0x9371166cecf15890!2z5pyx6be644Oh44OD44K7!5e0!3m2!1sja!2sjp!4v1762697521069!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+## 共催・研究支援
+
+準備中
+
+
+{% if site.data.orgmembers.m9th %}
+<h2>実行委員</h2>
+{% for member in site.data.orgmembers.m10th %}
+<ul>
+  <li><p><strong>{{ member.name }}</strong><br>
+  {{ member.affiliation }}</p></li>
+</ul>
+{% endfor %}
+{% endif %}
