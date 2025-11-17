@@ -7,7 +7,7 @@ last_modified_at: 2025-11-09 12:00:00 +0900
 categories: workshop next
 permalink: /10th-workshop/
 eventdate: "2026年1月19日-1月21日（予定）"
-eventplace: "朱鷺メッセ（予定）<br>〒950-0078 新潟市中央区万代島6番1号<br><a href='https://maps.app.goo.gl/fCJ4VyXkYwFk4UGd9'>Googleマップ</a><br><a href='https://www.tokimesse.com/'>朱鷺メッセ　新潟コンベンションセンター</a>"
+eventplace: "朱鷺メッセ 中会議室（３０１）<br>〒950-0078 新潟市中央区万代島6番1号<br><a href='https://maps.app.goo.gl/fCJ4VyXkYwFk4UGd9'>Googleマップ</a><br><a href='https://www.tokimesse.com/'>朱鷺メッセ　新潟コンベンションセンター</a>"
 image: /assets/images/ws-10.png
 ---
 
