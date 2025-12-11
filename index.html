@@ -32,7 +32,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
       <h3>{{ post.title }}</h3>
       <p>日時:<br>{{ post.eventdate }}</p>
       <p>開催地:<br>{{ post.eventplace }}</p>
-      <p><a href="{{ post.permalink }}">開催概要のページ</a></p>
+      {% include button.html sentence="開催概要のページ" url=post.permalink align="left" %}
       {% endfor %}
     </div>
 
