@@ -71,8 +71,6 @@ image: /assets/images/ws-10.png
 
 ### 参加登録フォーム
 
-準備中
-
 {% include button.html sentence="参加登録フォーム" url="https://forms.gle/A5osHNStGfqSRPiC6" %}
 
 - ワークショップに関連する情報を 10thworkshop\[at\]theoreticalimmunology.jp よりお送りいたしますので受信設定をお願いいたします。
