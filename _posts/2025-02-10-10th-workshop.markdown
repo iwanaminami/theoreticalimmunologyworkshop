@@ -73,7 +73,7 @@ image: /assets/images/ws-10.png
 
 準備中
 
-{% include button.html sentence="参加登録フォーム" url="#" %}
+{% include button.html sentence="参加登録フォーム" url="https://forms.gle/A5osHNStGfqSRPiC6" %}
 
 - ワークショップに関連する情報を 10thworkshop\[at\]theoreticalimmunology.jp よりお送りいたしますので受信設定をお願いいたします。
 - ご登録いただいた情報は、第１０回理論免疫学ワークショップに関する手続きと、名古屋大学大学院理学研究科・異分野融合生物学研究室（iBLab）に関連する研究集会等の案内に利用いたします。
