@@ -3,7 +3,7 @@ layout: post
 title:  "第１０回プログラム"
 description: 第１０回理論免疫学ワークショップのプログラムです。第１０回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルを掲載しています。
 date:   2025-11-09 12:00:00 +0900
-last_modified_at: 2026-01-08 12:00:00 +0900
+last_modified_at: 2026-01-19 12:00:00 +0900
 categories: program
 permalink: /10th-program/
 image: /assets/images/ws-10.png
@@ -154,7 +154,7 @@ image: /assets/images/ws-10.png
 岩波 翔也（名古屋大学大学院理学研究科理学専攻異分野融合生物学研究室（iBLab））
 
 10:00 - 10:30  
-講演22：**TBA**<br>
+講演22：**意思決定の揺らぎのデータ駆動解読**<br>
 本田 直樹（名古屋大学医学系研究科）
 
 10:30 - 11:00  
