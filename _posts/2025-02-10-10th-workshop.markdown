@@ -4,7 +4,7 @@ title:  "第１０回理論免疫学ワークショップ"
 description: 第１０回理論免疫学ワークショップの開催概要です。第１０回理論免疫学ワークショップの開催日・開催場所・開催趣旨・共催情報などを確認できます。第１０回理論免疫学ワークショップの参加登録はこちらから。
 date:   2025-02-10 12:00:00 +0900
 last_modified_at: 2025-12-11 12:00:00 +0900
-categories: workshop next
+categories: workshop previous
 permalink: /10th-workshop/
 eventdate: "2026年1月19日-1月21日"
 eventplace: "朱鷺メッセ 3F 中会議室（３０１）<br>〒950-0078 新潟市中央区万代島6番1号<br><a href='https://maps.app.goo.gl/fCJ4VyXkYwFk4UGd9'>Googleマップ</a><br><a href='https://www.tokimesse.com/'>朱鷺メッセ　新潟コンベンションセンター</a><br><a href='https://www.tokimesse.com/visitor/guide/hall.html'>館内マップ · 施設一覧 | 施設ガイド | ご来場のお客様 | 朱鷺メッセ：新潟コンベンションセンター</a>"
