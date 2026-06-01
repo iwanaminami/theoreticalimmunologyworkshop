@@ -11,8 +11,12 @@
   image: /assets/images/member_ueno.jpg
 
 - name: 川上 英良
-  affiliation: 千葉大学大学院医学研究院人工知能（AI）医学 / 理化学研究所情報統合本部先端データサイエンスプロジェクト
+  affiliation: 大阪大学医学系研究科 先端人工知能（AI）医学 / 千葉大学 国際高等研究基幹 / 千葉大学大学院医学研究院 人工知能（AI）医学 / 理化学研究所 生命医科学研究センター（IMS） 予測医学特別プロジェクト / 理化学研究所 数理創造研究センター（iTHEMS）
   image: https://www.riken.jp/medialibrary/riken/research/labs/mih/healthcare_med_data_multilevel_integr_plat/healthcare_meddata_drive_ai_base_predict_reasoning_dev/eiryo_kawakami.jpg?h=160&w=120
+
+- name: 片山量平
+  affiliation: (公財)がん研究会がん化学療法センター基礎研究部
+  image: /assets/images/noimage.png
 
 - name: 小林 徹也
   affiliation: 東京大学生産技術研究所
@@ -23,19 +27,19 @@
   image: /assets/images/member_shinohara.png
 
 - name: 島村 徹平
-  affiliation: 名古屋大学大学院医学系研究科システム生物学分野
+  affiliation: 東京科学大学難治疾患研究所計算システム生物学分野
   image: /assets/images/member_shimamura.jpg
 
 - name: 藤生 克仁
-  affiliation: 東京大学大学院医学系研究科先進循環器病学
+  affiliation: 東京科学大学難治疾患研究所統合生理学分野
   image: /assets/images/member_fujiu.jpg
 
 - name: 本田 直樹
-  affiliation: 広島大学大学院統合生命科学研究科 / 生命創成探究センター（ExCELLS）
+  affiliation: 名古屋大学大学院医学系研究科システム生物学分野
   image: /assets/images/member_honda.jpeg
 
 - name: 山崎 聡
-  affiliation: 筑波大学医学医療系幹細胞治療分野
+  affiliation: 東京大学医科学研究所システム疾患モデル研究センター細胞制御研究分野
   image: /assets/images/member_yamazaki.jpg
 
 - name: 由雄 祥代
