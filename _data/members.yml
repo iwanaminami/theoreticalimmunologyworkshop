@@ -10,13 +10,13 @@
   affiliation: 京都大学大学院医学研究科免疫細胞生物学 / 京都大学高等研究院ヒト生物学高等研究拠点（ASHBi） / 京都大学免疫モニタリングセンターKIC センター長
   image: /assets/images/member_ueno.jpg
 
-- name: 川上 英良
-  affiliation: 大阪大学医学系研究科 先端人工知能（AI）医学 / 千葉大学 国際高等研究基幹 / 千葉大学大学院医学研究院 人工知能（AI）医学 / 理化学研究所 生命医科学研究センター（IMS） 予測医学特別プロジェクト / 理化学研究所 数理創造研究センター（iTHEMS）
-  image: https://www.riken.jp/medialibrary/riken/research/labs/mih/healthcare_med_data_multilevel_integr_plat/healthcare_meddata_drive_ai_base_predict_reasoning_dev/eiryo_kawakami.jpg?h=160&w=120
-
 - name: 片山量平
   affiliation: (公財)がん研究会がん化学療法センター基礎研究部
-  image: /assets/images/noimage.png
+  image: /assets/images/member_katayama.jpg
+
+- name: 川上 英良
+  affiliation: 大阪大学医学系研究科先端人工知能（AI）医学 / 千葉大学国際高等研究基幹 / 千葉大学大学院医学研究院人工知能（AI）医学 / 理化学研究所生命医科学研究センター（IMS）予測医学特別プロジェクト / 理化学研究所数理創造研究センター（iTHEMS）
+  image: https://www.riken.jp/medialibrary/riken/research/labs/mih/healthcare_med_data_multilevel_integr_plat/healthcare_meddata_drive_ai_base_predict_reasoning_dev/eiryo_kawakami.jpg?h=160&w=120
 
 - name: 小林 徹也
   affiliation: 東京大学生産技術研究所

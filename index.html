@@ -110,29 +110,41 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 <div class="page-strip" id="members">
   <div class="wrapper">
     <h2>運営体制（運営委員会）</h2>
-    <h3>主催者</h3>
-    <div>
-      <img src="/assets/images/iwanami2.jpg" alt="岩波翔也" width="80px" style="border-radius: 20%">
-    </div>
-    <p><strong>{{ site.organizer.name }}</strong><br>
-      {{ site.affiliation.institute }}{{ site.affiliation.department }}・{{ site.affiliation.laboratory }}<br>
-      {{ site.organizer.possition }}</p>
-    <p>
-      <a href="https://shoyaiwanami.com">ウェブサイト</a>・
-      <a href="/contact">コンタクト</a>
-    </p>
-    <h3>運営委員</h3>
-    <p>(50音順・敬称略)</p>
-    <div class="clearfix">
-      {% for member in site.data.members %}
-      <div class="page-column50">
-        <div>
-          <img src="{{ member.image }}" alt="{{ member.name }}" height="80px" style="border-radius: 20%">
+    
+    <div class="organizer-section">
+      <h3>主催者</h3>
+      <div class="member-card organizer-card">
+        <div class="member-image-wrap">
+          <img src="/assets/images/iwanami2.jpg" alt="岩波翔也" class="member-img">
         </div>
-        <p><strong>{{ member.name }}</strong><br>
-          {{ member.affiliation }}</p>
+        <div class="member-info">
+          <p><strong>{{ site.organizer.name }}</strong><br>
+            {{ site.affiliation.institute }}{{ site.affiliation.department }}・{{ site.affiliation.laboratory }}<br>
+            {{ site.organizer.possition }}</p>
+          <p class="member-links">
+            <a href="https://shoyaiwanami.com">ウェブサイト</a>・
+            <a href="/contact">コンタクト</a>
+          </p>
+        </div>
       </div>
-      {% endfor %}
+    </div>
+
+    <div class="committee-section">
+      <h3>運営委員</h3>
+      <p class="committee-subtitle">(50音順・敬称略)</p>
+      <div class="members-grid">
+        {% for member in site.data.members %}
+        <div class="member-card">
+          <div class="member-image-wrap">
+            <img src="{{ member.image }}" alt="{{ member.name }}" class="member-img">
+          </div>
+          <div class="member-info">
+            <p><strong>{{ member.name }}</strong><br>
+              {{ member.affiliation }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>

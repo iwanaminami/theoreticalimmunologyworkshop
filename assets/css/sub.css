@@ -603,3 +603,99 @@ a.btn--orange:hover {
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+/* 運営体制・運営委員のレイアウト調整 */
+.organizer-section {
+  margin-bottom: 40px;
+}
+
+.committee-subtitle {
+  margin-bottom: 20px;
+  color: #666666;
+  font-size: 0.95rem;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 15px;
+}
+
+.member-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f9fbfd;
+  border: 1px solid #eef2f5;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.member-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-color: #dbe3eb;
+  background-color: #ffffff;
+}
+
+.organizer-card {
+  max-width: 588px;
+}
+
+.member-image-wrap {
+  flex-shrink: 0;
+}
+
+.member-img {
+  width: 80px;
+  height: 107px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background-color: #eeeeee;
+  display: block;
+}
+
+.member-info {
+  flex-grow: 1;
+}
+
+.member-info p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.member-info p strong {
+  font-size: 1.1rem;
+  color: #1a202c;
+}
+
+.member-info p + p {
+  margin-top: 10px;
+}
+
+.member-links {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 760px) {
+  .members-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .member-card {
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .organizer-card {
+    max-width: 100%;
+  }
+}
+
