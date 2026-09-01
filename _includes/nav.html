@@ -1,22 +1,28 @@
-<div id="nav-drawer">
-  <div class="site-title">
-    <h1>{{ site.title }}</h1>
-  </div>
-  <input id="nav-input" type="checkbox" class="nav-unshown">
-  <label id="nav-open" for="nav-input"><span></span></label>
-  <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-  <div id="nav-content">
-    <div class="wrapper">
-      <nav>
-        <ul>
-          <li class="site-title"><a href="/">{{ site.title }}</a></li>
-          <li {% if page.url == "/" %} class="current"{% endif %}><a href="/">Home</a></li>
-          <li {% if page.url == "/workshop/" %} class="current"{% endif %}><a href="/workshop/">Workshop</a></li>
-          <li {% if page.url == "/program/" %} class="current"{% endif %}><a href="/program/">Program</a></li>
-          <li {% if page.url == "/contact/" %} class="current"{% endif %}><a href="/contact/">Contact</a></li>
-        </ul>
-      </nav>
+<header class="site-header-nav">
+  <div class="header-nav-inner wrapper">
+    <div class="nav-brand">
+      <a href="/" class="site-brand-title">{{ site.title }}</a>
     </div>
-    <label id="nav-close-button" for="nav-input"><span></span></label>
+
+    <input id="nav-input" type="checkbox" class="nav-unshown" aria-label="ナビゲーションメニューを開閉">
+    <label id="nav-open" for="nav-input" aria-label="メニューを開く"><span></span></label>
+    <label class="nav-unshown" id="nav-close" for="nav-input" aria-label="メニューを閉じる"></label>
+
+    <div id="nav-content">
+      <div class="nav-content-inner">
+        <div class="nav-mobile-header">
+          <span class="nav-mobile-title">{{ site.title }}</span>
+          <label id="nav-close-button" for="nav-input" aria-label="メニューを閉じる"><span></span></label>
+        </div>
+        <nav class="main-navigation" aria-label="メインナビゲーション">
+          <ul class="nav-menu">
+            <li class="nav-item{% if page.url == '/' %} current{% endif %}"><a href="/">Home</a></li>
+            <li class="nav-item{% if page.url == '/workshop/' %} current{% endif %}"><a href="/workshop/">Workshop</a></li>
+            <li class="nav-item{% if page.url == '/program/' %} current{% endif %}"><a href="/program/">Program</a></li>
+            <li class="nav-item{% if page.url == '/contact/' %} current{% endif %}"><a href="/contact/">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </div>
-</div>
+</header>

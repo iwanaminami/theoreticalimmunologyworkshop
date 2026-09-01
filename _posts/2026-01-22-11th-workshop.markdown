@@ -3,19 +3,17 @@ layout: post
 title:  "第１１回理論免疫学ワークショップ"
 description: 第１１回理論免疫学ワークショップの開催概要です。第１１回理論免疫学ワークショップの概要は決定次第更新いたします。
 date:   2026-01-22 12:00:00 +0900
-last_modified_at: 2026-01-22 12:00:00 +0900
+last_modified_at: 2026-09-01 12:00:00 +0900
 categories: workshop next
 permalink: /11th-workshop/
-eventdate: "未定"
-eventplace: "未定"
+eventdate: "2027年1月18日-20日"
+eventplace: "仙台商工会議所 7階大会議室<br>〒980-8414 宮城県仙台市青葉区本町2-16-12<br><a href='https://maps.app.goo.gl/KsBy9Fff7x3fQjeU6' target='_blank' rel='noopener noreferrer'>Googleマップ</a><br><a href='https://www.sendaicci.or.jp/aboutus/access.html' target='_blank' rel='noopener noreferrer'>アクセス | 仙台商工会議所</a>"
 image: /assets/images/logo5.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
 
-<div style="height:50px"></div>
-
-更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+{% include updated.html %}
 
 ## 概要
 
@@ -52,5 +50,20 @@ image: /assets/images/logo5.png
 準備中
 
 ## アクセス
+{:#access}
 
-準備中
+### ワークショップ会場
+
+{{ page.eventplace }}  
+
+<iframe src="https://maps.google.com/maps?output=embed&q=仙台商工会議所+宮城県仙台市青葉区本町2-16-12&t=m&z=16" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{% if site.data.orgmembers.m11th %}
+<h2>実行委員</h2>
+{% for member in site.data.orgmembers.m11th %}
+<ul>
+  <li><p><strong>{{ member.name }}</strong><br>
+  {{ member.affiliation }}</p></li>
+</ul>
+{% endfor %}
+{% endif %}

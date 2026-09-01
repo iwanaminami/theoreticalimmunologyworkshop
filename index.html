@@ -18,111 +18,126 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 -->
 
 
-<div class="page-strip-header">
+<div class="page-strip-header home-hero" style="background-image: linear-gradient(180deg, rgba(15, 23, 42, 0.32) 0%, rgba(15, 23, 42, 0.58) 100%), url('{{ site.backimage | relative_url }}');">
   <div class="wrapper">
-    <h1 class="page-header-image"><a href="/"><img src="{{ site.image }}" alt="理論免疫学ワークショップ"></a></h1>
+    <div class="hero-inner">
+      <h1 class="page-header-image"><a href="/"><img src="{{ site.image | relative_url }}" alt="理論免疫学ワークショップ"></a></h1>
+    </div>
   </div>
 </div>
 
-<div class="page-strip">
-  <div class="wrapper clearfix">
-    <h2>次回の開催</h2>
-    <div class="page-column50">
-      {% for post in site.categories.next %}
-      <h3>{{ post.title }}</h3>
-      <p>日時:<br>{{ post.eventdate }}</p>
-      <p>開催地:<br>{{ post.eventplace }}</p>
-      {% include button.html sentence="開催概要のページ" url=post.permalink align="left" %}
-      {% endfor %}
-    </div>
-
-    <div class="page-column50">
-      <h3>新着情報</h3>
-      <ul>
-        {% for news in site.data.news limit: 5 %}
-        <li>
-          {{ news.date }} - {{ news.content }}
-        </li>
+<div class="page-strip section-next-news">
+  <div class="wrapper">
+    <div class="next-news-grid">
+      <div class="next-event-card">
+        <div class="card-badge">次回開催</div>
+        {% for post in site.categories.next %}
+        <h2 class="card-title">{{ post.title }}</h2>
+        <div class="event-meta-list">
+          <div class="event-meta-item">
+            <span class="event-meta-label">日時</span>
+            <span class="event-meta-val">{{ post.eventdate }}</span>
+          </div>
+          <div class="event-meta-item">
+            <span class="event-meta-label">開催地</span>
+            <span class="event-meta-val">{{ post.eventplace }}</span>
+          </div>
+        </div>
+        {% include button.html sentence="開催概要のページ" url=post.permalink align="left" %}
         {% endfor %}
-      </ul>
+      </div>
+
+      <div class="news-card">
+        <h2 class="news-title">新着情報</h2>
+        <ul class="news-list">
+          {% for news in site.data.news limit: 5 %}
+          <li class="news-item">
+            <span class="news-date">{{ news.date }}</span>
+            <span class="news-text">{{ news.content }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
-
-<div class="page-strip" style="background-color: #1D3156; color: #ffffff;">
+<div class="page-strip section-about" style="background-color: #1D3156; color: #ffffff;">
   <div class="wrapper">
-    <h2>ワークショップの趣旨</h2>
-    <p>
-      現在の免疫学は生化学、分子生物学、細胞生物学などの手法を取り入れながら発展し、細胞や分子の個々の働きに関する知見が深まっています。その中で、免疫学における数理生物学やシステム生物学の発展は、本格的な免疫システムの解明に寄与し得ると考えられます。また、免疫学はウイルス感染、がん、骨関連疾患のような様々な疾患への関連も知られており、免疫学における理論研究は、臨床医学への応用も求められます。<br>本ワークショップは、数理科学、定量生物学、数理生物学などにおけるモデル化、定量化を行う、幅広い研究者の方々をお招きし講演いただきます。免疫学における数理的アプローチは他の分野で発展したものも多く、理論生物学に携わる方にとっても、非常に有益なワークショップになると考えられます。さらに、実証研究を行う研究者を招待し講演を行っていただくことで、実験・理論双方の最新技術が融合するような研究の創出にも貢献できることが期待できます。
-    </p>
-    <div class="page-image-middle">
-      <img src="/assets/images/about.png" alt="開催概要">
+    <div class="section-title-wrap">
+      <h2 class="section-title-light">ワークショップの趣旨</h2>
+    </div>
+    <div class="about-text-wrap">
+      <p>
+        現在の免疫学は生化学、分子生物学、細胞生物学などの手法を取り入れながら発展し、細胞や分子の個々の働きに関する知見が深まっています。その中で、免疫学における数理生物学やシステム生物学の発展は、本格的な免疫システムの解明に寄与し得ると考えられます。また、免疫学はウイルス感染、がん、骨関連疾患のような様々な疾患への関連も知られており、免疫学における理論研究は、臨床医学への応用も求められます。<br>本ワークショップは、数理科学、定量生物学、数理生物学などにおけるモデル化、定量化を行う、幅広い研究者の方々をお招きし講演いただきます。免疫学における数理的アプローチは他の分野で発展したものも多く、理論生物学に携わる方にとっても、非常に有益なワークショップになると考えられます。さらに、実証研究を行う研究者を招待し講演を行っていただくことで、実験・理論双方の最新技術が融合するような研究の創出にも貢献できることが期待できます。
+      </p>
+    </div>
+    <div class="page-image-middle about-image-wrap">
+      <img src="/assets/images/about.png" alt="開催概要" class="about-img">
     </div>
   </div>
-
 </div>
 
-<div class="page-strip">
+<div class="page-strip section-past">
   <div class="wrapper">
-    <h2>過去の開催</h2>
-    <p>
+    <div class="section-title-wrap">
+      <h2>過去の開催</h2>
+    </div>
+    <p class="section-lead-text">
       理論免疫学ワークショップは毎年1月、2月ごろに開催しています。日本各地から免疫学に関わる理論・実証研究を行う研究者の方々に参加いただいています。特定の場所にこだわらず、参加者の方々が熱く議論できるよう趣向を凝らして開催してまいります。
     </p>
 
-    {% include button.html sentence="過去の開催情報はこちら" url="/workshop" %}
+    {% include button.html sentence="過去の開催情報はこちら" url="/workshop" align="center" %}
 
-
-    <!--
-    <div class="page-image-middle">
-      <img src="/assets/images/place.png" alt="過去の開催地">
+    <div class="map-wrapper">
+      {% include map.html %}
     </div>
-    -->
-
-    {% include map.html %}
   </div>
 </div>
 
-<div class="wrapper">
-  <hr>
-</div>
-
-<div class="page-strip">
+<div class="page-strip section-ml">
   <div class="wrapper">
-    <h2>メーリングリストについて</h2>
-    <p>
-      過去にご参加いただいた皆様に向けて以下のメールアドレスのメーリングリストにて関連情報をお送りすることがあります。
-    </p>
-    <p>
-      info[at]theoreticalimmunology.jp
-    </p>
-    <p>
-      退会するための情報についてはお送りするメールをご参照いただくか、以下までご連絡ください。
-    </p>
-    {% include button.html sentence="コンタクト" url="/contact" %}
+    <div class="ml-card">
+      <div class="ml-card-inner">
+        <div class="section-title-wrap">
+          <h2>メーリングリストについて</h2>
+        </div>
+        <p>
+          過去にご参加いただいた皆様に向けて以下のメールアドレスのメーリングリストにて関連情報をお送りすることがあります。
+        </p>
+        <p class="ml-address-badge">
+          <code>info[at]<wbr>theoreticalimmunology.jp</code>
+        </p>
+        <p class="ml-note">
+          退会するための情報についてはお送りするメールをご参照いただくか、以下までご連絡ください。
+        </p>
+        {% include button.html sentence="コンタクト" url="/contact" align="left" %}
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="wrapper">
-  <hr>
-</div>
-
-<div class="page-strip" id="members">
+<div class="page-strip section-members" id="members">
   <div class="wrapper">
-    <h2>運営体制（運営委員会）</h2>
+    <div class="section-title-wrap">
+      <h2>運営体制（運営委員会）</h2>
+    </div>
     
     <div class="organizer-section">
-      <h3>主催者</h3>
+      <div class="committee-title-wrap">
+        <h3 class="group-label">主催者</h3>
+      </div>
       <div class="member-card organizer-card">
         <div class="member-image-wrap">
           <img src="/assets/images/iwanami.jpg" alt="岩波翔也" class="member-img">
         </div>
         <div class="member-info">
-          <p><strong>{{ site.organizer.name }}</strong><br>
-            {{ site.affiliation.institute }}{{ site.affiliation.department }}・{{ site.affiliation.laboratory }}<br>
+          <p class="member-name"><strong>{{ site.organizer.name }}</strong></p>
+          <p class="member-affiliation">{{ site.affiliation.institute }}{{ site.affiliation.department }}・{{ site.affiliation.laboratory }}<br>
             {{ site.organizer.possition }}</p>
           <p class="member-links">
-            <a href="https://shoyaiwanami.com">ウェブサイト</a>・
+            <a href="https://shoyaiwanami.com" target="_blank" rel="noopener noreferrer">ウェブサイト</a>
+            <span class="sep">・</span>
             <a href="/contact">コンタクト</a>
           </p>
         </div>
@@ -130,17 +145,19 @@ last_modified_at: 2019-07-12 01:28:37 +0900
     </div>
 
     <div class="committee-section">
-      <h3>運営委員</h3>
-      <p class="committee-subtitle">(50音順・敬称略)</p>
+      <div class="committee-title-wrap">
+        <h3 class="group-label">運営委員</h3>
+        <span class="committee-subtitle">(50音順・敬称略)</span>
+      </div>
       <div class="members-grid">
         {% for member in site.data.members %}
         <div class="member-card">
           <div class="member-image-wrap">
-            <img src="{{ member.image }}" alt="{{ member.name }}" class="member-img">
+            <img src="{{ member.image }}" alt="{{ member.name }}" class="member-img" loading="lazy">
           </div>
           <div class="member-info">
-            <p><strong>{{ member.name }}</strong><br>
-              {{ member.affiliation }}</p>
+            <p class="member-name"><strong>{{ member.name }}</strong></p>
+            <p class="member-affiliation">{{ member.affiliation }}</p>
           </div>
         </div>
         {% endfor %}
