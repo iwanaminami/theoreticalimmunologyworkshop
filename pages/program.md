@@ -15,9 +15,9 @@ last_modified_at: 2019-07-12 01:28:37 +0900
       <div class="program-card-content">
         <h3 class="program-card-title">{{ post.title }}</h3>
         {% if post.last_modified_at %}
-        <p class="program-card-meta">更新：{{ post.last_modified_at | date: "%Y年%m月%d日" }}</p>
+        <p class="program-card-meta">更新：{{ post.last_modified_at | date: "%Y年%-m月%-d日" }}</p>
         {% elsif post.date %}
-        <p class="program-card-meta">公開：{{ post.date | date: "%Y年%m月%d日" }}</p>
+        <p class="program-card-meta">公開：{{ post.date | date: "%Y年%-m月%-d日" }}</p>
         {% endif %}
       </div>
       <span class="program-card-arrow">&rarr;</span>

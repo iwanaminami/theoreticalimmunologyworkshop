@@ -23,7 +23,7 @@ og_image: /assets/images/ws-11-sns.png
 
 {% include button.html sentence="第１１回理論免疫学ワークショップの開催概要" url="/11th-workshop" %}
 
-プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
+プログラム更新日：**{{ page.last_modified_at | date: "%Y年%-m月%-d日" }}**
 
 ---
 

@@ -4,6 +4,6 @@
       <circle cx="12" cy="12" r="10"></circle>
       <polyline points="12 6 12 12 16 14"></polyline>
     </svg>
-    <span>最終更新：<strong class="update-date">{{ page.last_modified_at | default: page.date | date: "%Y年%m月%d日" }}</strong></span>
+    <span>最終更新：<strong class="update-date">{{ page.last_modified_at | default: page.date | date: "%Y年%-m月%-d日" }}</strong></span>
   </div>
 </div>
