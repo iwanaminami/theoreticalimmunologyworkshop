@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "第１１回プログラム"
+description: 第１１回理論免疫学ワークショップのプログラムです。第１１回理論免疫学ワークショップの各講演の時間・講演者・講演タイトルは決定次第掲載いたします。
+date:   2026-10-01 10:00:00 +0900
+last_modified_at: 2026-10-01 10:00:00 +0900
+categories: program
+permalink: /11th-program/
+image: /assets/images/ws-11.png
+og_image: /assets/images/ws-11-sns.png
+---
+
+![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
+
+<div style="height:50px"></div>
+
+---
+
+2027年1月18日-20日に開催予定の第１１回理論免疫学ワークショップのプログラムです。  
+
+{% include button.html sentence="第１１回理論免疫学ワークショップの開催概要" url="/11th-workshop" %}
+
+プログラム更新日：**{{ page.last_modified_at | date: "%Y年%m月%d日" }}**
+
+---
+
+## プログラム
+
+現在準備中です。決定次第、順次掲載いたします。

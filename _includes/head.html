@@ -20,14 +20,15 @@
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="article:modified_time" content="{{ page.last_modified_at }}" />
 
+  {% assign share_image = page.og_image | default: page.sns_image | default: page.image | default: site.image %}
   <meta name="twitter:card" content="{{ site.twitter.card }}" />
-  <meta name="twitter:image:src" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}" />
+  <meta name="twitter:image:src" content="{{ site.url }}{{ share_image }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:locale" content="{% if page.lang %}{{ page.lang }}{% else %}{{ site.lang }}{% endif %}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:site_name" content="{{ site.title }}" />
-  <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}" />
+  <meta property="og:image" content="{{ site.url }}{{ share_image }}" />
   <meta property="og:type" content="article" />
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">

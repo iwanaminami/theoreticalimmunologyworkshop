@@ -3,15 +3,19 @@ layout: post
 title:  "第１１回理論免疫学ワークショップ"
 description: 第１１回理論免疫学ワークショップの開催概要です。第１１回理論免疫学ワークショップの概要は決定次第更新いたします。
 date:   2026-01-22 12:00:00 +0900
-last_modified_at: 2026-09-01 12:00:00 +0900
+last_modified_at: 2026-10-01 12:00:00 +0900
 categories: workshop next
 permalink: /11th-workshop/
 eventdate: "2027年1月18日-20日"
 eventplace: "仙台商工会議所 7階大会議室<br>〒980-8414 宮城県仙台市青葉区本町2-16-12<br><a href='https://maps.app.goo.gl/KsBy9Fff7x3fQjeU6' target='_blank' rel='noopener noreferrer'>Googleマップ</a><br><a href='https://www.sendaicci.or.jp/aboutus/access.html' target='_blank' rel='noopener noreferrer'>アクセス | 仙台商工会議所</a>"
-image: /assets/images/logo5.png
+image: /assets/images/ws-11.png
+og_image: /assets/images/ws-11-sns.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
+
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
 
 {% include updated.html %}
 
@@ -44,6 +48,8 @@ image: /assets/images/logo5.png
 ## プログラム
 
 準備中
+
+{% include button.html sentence="第１１回プログラムはこちら（準備中）" url="/11th-program" %}
 
 ## 参加方法
 
