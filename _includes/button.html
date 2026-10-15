@@ -1,3 +1,40 @@
-<div style="padding-top: 10px;padding-bottom: 20px;text-align: {{ include.align | default: 'center' }};">
-    <p style="text-align: {{ include.align | default: 'center' }};"><a href="{{ include.url }}" class="btn btn--orange">{{ include.sentence }}</a></p>
+{% assign btn_url = include.url | default: '#' %}
+{% assign first_char = btn_url | slice: 0, 1 %}
+{% assign http_check = btn_url | slice: 0, 4 %}
+
+{% if first_char == '#' %}
+  {% assign link_type = 'scroll' %}
+{% elsif http_check == 'http' %}
+  {% assign link_type = 'external' %}
+{% else %}
+  {% assign link_type = 'internal' %}
+{% endif %}
+
+<div class="btn-container" style="text-align: {{ include.align | default: 'center' }};">
+  {% if link_type == 'scroll' %}
+    <a href="{{ btn_url }}" class="btn btn--scroll" title="ページ内をスクロール">
+      <span>{{ include.sentence }}</span>
+      <svg class="btn-icon btn-icon--down" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 5v14"></path>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </a>
+  {% elsif link_type == 'external' %}
+    <a href="{{ btn_url }}" class="btn btn--external" target="_blank" rel="noopener noreferrer" title="外部サイトへ移動（別タブで開く）">
+      <span>{{ include.sentence }}</span>
+      <svg class="btn-icon btn-icon--external" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+        <polyline points="15 3 21 3 21 9"></polyline>
+        <line x1="10" y1="14" x2="21" y2="3"></line>
+      </svg>
+    </a>
+  {% else %}
+    <a href="{{ btn_url }}" class="btn btn--internal" title="サイト内ページへ移動">
+      <span>{{ include.sentence }}</span>
+      <svg class="btn-icon btn-icon--right" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 12h14"></path>
+        <polyline points="12 5 19 12 12 19"></polyline>
+      </svg>
+    </a>
+  {% endif %}
 </div>

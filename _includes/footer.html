@@ -1,18 +1,33 @@
 <footer class="site-footer">
   <div class="wrapper">
-    <div class="footer-content">
-      <p class="footer-title">{{ site.title }}</p>
-      <p>連絡先：<br>
-        <strong>{{ site.organizer.name }}</strong><br>
-        {{ site.affiliation.institute }}{{ site.affiliation.department }}・<a href="{{ site.affiliation_url }}">{{ site.affiliation.laboratory }}</a><br>
-        {{ site.address }}<br>
-        Email: {{ site.email }}
-      </p>
-      <div style="height: 50px"></div>
-      <p class="footer-copyright">
-        <small><a href = "/privacypolicy">プライバシーポリシー</a></small><br>
-        <small><a href = "/disclaimer">免責事項</a></small>
-      </p>
+    <div class="footer-grid">
+      <div class="footer-col-main">
+        <p class="footer-title">{{ site.title }}</p>
+        <div class="footer-contact-info">
+          <p class="footer-line"><strong>主催：{{ site.organizer.name }}</strong>（{{ site.organizer.possition }}）</p>
+          <p class="footer-line">{{ site.affiliation.institute }}{{ site.affiliation.department }}・<a href="{{ site.affiliation_url }}" target="_blank" rel="noopener noreferrer">{{ site.affiliation.laboratory }}</a></p>
+          <p class="footer-line">{{ site.address }}</p>
+          <p class="footer-line">Email: <span class="footer-email">{{ site.email }}</span></p>
+        </div>
+      </div>
+
+      <div class="footer-col-nav">
+        <p class="footer-nav-title">Menu</p>
+        <ul class="footer-nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/workshop/">Workshop</a></li>
+          <li><a href="/program/">Program</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="/privacypolicy">プライバシーポリシー</a>
+        <span class="footer-sep">/</span>
+        <a href="/disclaimer">免責事項</a>
+      </div>
       <p class="footer-copyright">&copy; 2017 - {{ "now" | date: "%Y" }} {{ site.title }}</p>
     </div>
   </div>

@@ -3,19 +3,21 @@ layout: post
 title:  "第１１回理論免疫学ワークショップ"
 description: 第１１回理論免疫学ワークショップの開催概要です。第１１回理論免疫学ワークショップの概要は決定次第更新いたします。
 date:   2026-01-22 12:00:00 +0900
-last_modified_at: 2026-01-22 12:00:00 +0900
+last_modified_at: 2026-10-01 12:00:00 +0900
 categories: workshop next
 permalink: /11th-workshop/
-eventdate: "未定"
-eventplace: "未定"
-image: /assets/images/logo5.png
+eventdate: "2027年1月18日-20日"
+eventplace: "仙台商工会議所 7階大会議室<br>〒980-8414 宮城県仙台市青葉区本町2-16-12<br><a href='https://maps.app.goo.gl/KsBy9Fff7x3fQjeU6' target='_blank' rel='noopener noreferrer'>Googleマップ</a><br><a href='https://www.sendaicci.or.jp/aboutus/access.html' target='_blank' rel='noopener noreferrer'>アクセス | 仙台商工会議所</a>"
+image: /assets/images/ws-11.png
+og_image: /assets/images/ws-11-sns.png
 ---
 
 ![{{ page.title }}]({{ page.image }} "{{ page.title }}")
 
-<div style="height:50px"></div>
+<small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
+{:style="text-align:right"}
 
-更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+{% include updated.html %}
 
 ## 概要
 
@@ -41,11 +43,13 @@ image: /assets/images/logo5.png
 
 ## 開催趣旨
 
-「理論免疫学ワークショップ」は、多様なバックグラウンドを持つ研究者が集い、実験と理論の融合を目指した有機的な連携が生まれる場として発展してまいりました。第１１回の詳細については決定次第、本ページにて公開いたします。
+近年のAIの進歩によって生命科学を取り巻く環境は目まぐるしく変化しています。生命現象のような複雑なシステムを理解するためには、個別の対象に適切な計測・解析技術を組み合わせ、さらに理論的なバックグラウンドに基づく仮説構築と検証を繰り返していくことが重要です。本ワークショップでは、手法・対象を拡張しながら、生命現象の理解に貢献できる理論免疫学・計算生命科学のワークショップを目指していきます。異分野の研究者・学生が自由に議論できる場を提供しながら、新たな知見や共同研究の種が生まれる場となることを期待しています。ぜひ奮ってご参加ください。
 
 ## プログラム
 
 準備中
+
+{% include button.html sentence="第１１回プログラムはこちら（準備中）" url="/11th-program" %}
 
 ## 参加方法
 
@@ -56,5 +60,20 @@ image: /assets/images/logo5.png
 2027年1月19日19時ごろをを予定。
 
 ## アクセス
+{:#access}
 
-準備中
+### ワークショップ会場
+
+{{ page.eventplace }}  
+
+<iframe src="https://maps.google.com/maps?output=embed&q=仙台商工会議所+宮城県仙台市青葉区本町2-16-12&t=m&z=16" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{% if site.data.orgmembers.m11th %}
+<h2>実行委員</h2>
+{% for member in site.data.orgmembers.m11th %}
+<ul>
+  <li><p><strong>{{ member.name }}</strong><br>
+  {{ member.affiliation }}</p></li>
+</ul>
+{% endfor %}
+{% endif %}

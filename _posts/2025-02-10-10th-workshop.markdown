@@ -16,9 +16,7 @@ image: /assets/images/ws-10.png
 <small>Image by <a href="https://iblab.bio.nagoya-u.ac.jp/members/detail/k.kojima">K.K.</a></small>
 {:style="text-align:right"}
 
-<div style="height:50px"></div>
-
-更新：{{ page.last_modified_at | date: "%Y年%m月%d日" }}
+{% include updated.html %}
 
 {% include button.html sentence="参加登録はこちら" url="#registration" %}
 
